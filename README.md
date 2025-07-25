@@ -49,6 +49,12 @@ npm run install:all
 
 ### 构建项目
 ```bash
+# 配置前端环境变量
+cp .env.production.local .env.production
+# 配置信令服务环境变量
+cp .env.master.local .env.master
+# 配置UE渲染子节点环境变量
+cp .env.slave.local .env.slave
 # 构建前端生产版本
 npm run build:client
 ```
