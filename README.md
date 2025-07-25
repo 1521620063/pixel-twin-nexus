@@ -77,6 +77,65 @@ npm run pm2:start:master
 npm run pm2:start:slave
 ```
 
+### Web端使用说明
+
+#### 一、创建Web端项目
+
+#### 二、下载npm插件
+```bash
+# 使用 npm 下载
+npm install pixel-twin-player
+```
+
+#### 三、引入插件
+```javascript
+import { PixelTwinSDK } from 'pixel-twin-player';
+
+// 创建 SDK 实例
+const sdk = new PixelTwinSDK();
+
+// 设置视频元素
+const videoElement = document.getElementById('remoteVideo');
+sdk.setVideoElement(videoElement);
+
+// 设置音频元素（可选）
+const audioElement = document.getElementById('remoteAudio');
+sdk.setAudioElement(audioElement);
+
+// 设置回调函数
+sdk.setCallbacks({
+    onConnected: () => {
+        console.log('连接成功');
+    },
+    onDisconnected: (event) => {
+        console.log('连接断开:', event);
+    },
+    onError: (error) => {
+        console.error('发生错误:', error);
+    },
+    onVideoTrack: (stream) => {
+        console.log('接收到视频流');
+        // 将流附加到视频元素
+        videoElement.srcObject = stream;
+    },
+    onAudioTrack: (stream) => {
+        console.log('接收到音频流');
+        // 将流附加到音频元素
+        audioElement.srcObject = stream;
+    }
+});
+
+// 连接到服务器
+try {
+    await sdk.connect('ws://localhost:8080/ws');
+    console.log('WebSocket 连接建立成功');
+} catch (error) {
+    console.error('连接失败:', error);
+}
+```
+
+具体使用方法请参考npm插件文档：https://www.npmjs.com/package/pixel-twin-player
+
 ## 📁 目录结构
 
 ```
