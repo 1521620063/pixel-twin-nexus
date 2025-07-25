@@ -1,0 +1,9 @@
+{
+  "ip": "127.0.0.1",
+  "gpu": [
+    {
+      "graphicsAdapter": 0,
+      "gpuMemory": 12
+    }
+  ]
+}

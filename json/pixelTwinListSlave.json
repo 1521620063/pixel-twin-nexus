@@ -1,0 +1,26 @@
+[
+  {
+    "pixelTwinId": "lhasa-telecom",
+    "pixelTwinStartPath": "D:\\project_ue\\build_lhasa_telecom\\SMBDemo.exe"
+  },
+  {
+    "pixelTwinId": "two_hub_park",
+    "pixelTwinStartPath": "D:\\project_ue\\build_two_hub_park\\SMBDemo.exe"
+  },
+  {
+    "pixelTwinId": "xinjiang_wlmq_dx",
+    "pixelTwinStartPath": "D:\\project_ue\\build_xinjiang_wlmq_dx\\SMBDemo.exe"
+  },
+  {
+    "pixelTwinId": "xinjiang_wlmq_liuguanyixin",
+    "pixelTwinStartPath": "D:\\project_ue\\build_xinjiang_wlmq_liuguanyixin\\SMBDemo.exe"
+  },
+  {
+    "pixelTwinId": "gansu_huaneng",
+    "pixelTwinStartPath": "D:\\project_ue\\build_gansu_huaneng\\SMBDemo.exe"
+  },
+  {
+    "pixelTwinId": "lasa",
+    "pixelTwinStartPath": "D:\\UE_PROJECTS\\ue_xizang_lasa_dx\\Windows\\SMBDemo.exe"
+  }
+]

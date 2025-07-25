@@ -1,0 +1,320 @@
+[
+  {
+    "pixelTwinId": "lhasa-telecom",
+    "pixelTwinName": "拉萨电信项目",
+    "pixelTwinStartPath": "D:\\project_ue\\build_lhasa_telecom\\SMBDemo.exe",
+    "pixelTwinArgs": [
+      {
+        "key": "-PixelStreamingURL",
+        "check": true
+      },
+      {
+        "key": "-RenderOffScreen",
+        "check": true
+      },
+      {
+        "key": "-Unattended",
+        "check": true
+      },
+      {
+        "key": "-AudioMixer",
+        "check": true
+      },
+      {
+        "key": "-PixelStreamingHideCursor",
+        "check": true
+      },
+      {
+        "key": "-AllowPixelStreamingCommands",
+        "check": true
+      },
+      {
+        "key": "-ForceRes",
+        "check": true
+      },
+      {
+        "key": "-ResX",
+        "value": 1920,
+        "check": true
+      },
+      {
+        "key": "-ResY",
+        "value": 1080,
+        "check": true
+      },
+      {
+        "key": "-PixelStreamingWebRTCFps",
+        "value": 60,
+        "check": true
+      }
+    ],
+    "graphicsMemory": 7,
+    "serviceEnable": true,
+    "pixelTwinInstance": []
+  },
+  {
+    "pixelTwinId": "two_hub_park",
+    "pixelTwinName": "电信二枢纽",
+    "pixelTwinStartPath": "D:\\project_ue\\build_two_hub_park\\SMBDemo.exe",
+    "pixelTwinArgs": [
+      {
+        "key": "-PixelStreamingURL",
+        "check": true
+      },
+      {
+        "key": "-RenderOffScreen",
+        "check": true
+      },
+      {
+        "key": "-Unattended",
+        "check": true
+      },
+      {
+        "key": "-AudioMixer",
+        "check": true
+      },
+      {
+        "key": "-PixelStreamingHideCursor",
+        "check": true
+      },
+      {
+        "key": "-AllowPixelStreamingCommands",
+        "check": true
+      },
+      {
+        "key": "-ForceRes",
+        "check": true
+      },
+      {
+        "key": "-ResX",
+        "value": 1920,
+        "check": true
+      },
+      {
+        "key": "-ResY",
+        "value": 1080,
+        "check": true
+      },
+      {
+        "key": "-PixelStreamingWebRTCFps",
+        "value": 60,
+        "check": true
+      }
+    ],
+    "graphicsMemory": 8,
+    "serviceEnable": true,
+    "pixelTwinInstance": []
+  },
+  {
+    "pixelTwinId": "xinjiang_wlmq_dx",
+    "pixelTwinName": "新疆市电信",
+    "pixelTwinStartPath": "D:\\project_ue\\build_xinjiang_wlmq_dx\\SMBDemo.exe",
+    "pixelTwinArgs": [
+      {
+        "key": "-PixelStreamingURL",
+        "check": true
+      },
+      {
+        "key": "-RenderOffScreen",
+        "check": true
+      },
+      {
+        "key": "-Unattended",
+        "check": true
+      },
+      {
+        "key": "-AudioMixer",
+        "check": true
+      },
+      {
+        "key": "-PixelStreamingHideCursor",
+        "check": true
+      },
+      {
+        "key": "-AllowPixelStreamingCommands",
+        "check": true
+      },
+      {
+        "key": "-ForceRes",
+        "check": true
+      },
+      {
+        "key": "-ResX",
+        "value": 1920,
+        "check": true
+      },
+      {
+        "key": "-ResY",
+        "value": 1080,
+        "check": true
+      },
+      {
+        "key": "-PixelStreamingWebRTCFps",
+        "value": 60,
+        "check": true
+      }
+    ],
+    "graphicsMemory": 6,
+    "serviceEnable": true,
+    "pixelTwinInstance": []
+  },
+  {
+    "pixelTwinId": "xinjiang_wlmq_liuguanyixin",
+    "pixelTwinName": "新疆六馆一心",
+    "pixelTwinStartPath": "D:\\project_ue\\build_xinjiang_wlmq_liuguanyixin\\SMBDemo.exe",
+    "pixelTwinArgs": [
+      {
+        "key": "-PixelStreamingURL",
+        "check": true
+      },
+      {
+        "key": "-RenderOffScreen",
+        "check": true
+      },
+      {
+        "key": "-Unattended",
+        "check": true
+      },
+      {
+        "key": "-AudioMixer",
+        "check": true
+      },
+      {
+        "key": "-PixelStreamingHideCursor",
+        "check": true
+      },
+      {
+        "key": "-AllowPixelStreamingCommands",
+        "check": true
+      },
+      {
+        "key": "-ForceRes",
+        "check": true
+      },
+      {
+        "key": "-ResX",
+        "value": 1920,
+        "check": true
+      },
+      {
+        "key": "-ResY",
+        "value": 1080,
+        "check": true
+      },
+      {
+        "key": "-PixelStreamingWebRTCFps",
+        "value": 60,
+        "check": true
+      }
+    ],
+    "graphicsMemory": 6,
+    "serviceEnable": true,
+    "pixelTwinInstance": []
+  },
+  {
+    "pixelTwinId": "gansu_huaneng",
+    "pixelTwinName": "甘肃华能电厂",
+    "pixelTwinStartPath": "D:\\project_ue\\build_gansu_huaneng\\SMBDemo.exe",
+    "pixelTwinArgs": [
+      {
+        "key": "-PixelStreamingURL",
+        "check": true
+      },
+      {
+        "key": "-RenderOffScreen",
+        "check": true
+      },
+      {
+        "key": "-Unattended",
+        "check": true
+      },
+      {
+        "key": "-AudioMixer",
+        "check": true
+      },
+      {
+        "key": "-PixelStreamingHideCursor",
+        "check": true
+      },
+      {
+        "key": "-AllowPixelStreamingCommands",
+        "check": true
+      },
+      {
+        "key": "-ForceRes",
+        "check": true
+      },
+      {
+        "key": "-ResX",
+        "value": 1920,
+        "check": true
+      },
+      {
+        "key": "-ResY",
+        "value": 1080,
+        "check": true
+      },
+      {
+        "key": "-PixelStreamingWebRTCFps",
+        "value": "24",
+        "check": true
+      }
+    ],
+    "graphicsMemory": 7,
+    "serviceEnable": true,
+    "pixelTwinInstance": []
+  },
+  {
+    "pixelTwinId": "lasa",
+    "pixelTwinName": "拉萨电信2",
+    "pixelTwinStartPath": "D:\\UE_PROJECTS\\ue_xizang_lasa_dx\\Windows\\SMBDemo.exe",
+    "pixelTwinArgs": [
+      {
+        "key": "-PixelStreamingURL",
+        "check": true
+      },
+      {
+        "key": "-RenderOffScreen",
+        "check": true
+      },
+      {
+        "key": "-Unattended",
+        "check": true
+      },
+      {
+        "key": "-AudioMixer",
+        "check": true
+      },
+      {
+        "key": "-PixelStreamingHideCursor",
+        "check": true
+      },
+      {
+        "key": "-AllowPixelStreamingCommands",
+        "check": true
+      },
+      {
+        "key": "-ForceRes",
+        "check": true
+      },
+      {
+        "key": "-ResX",
+        "value": 1920,
+        "check": true
+      },
+      {
+        "key": "-ResY",
+        "value": 1080,
+        "check": true
+      },
+      {
+        "key": "-PixelStreamingWebRTCFps",
+        "value": 60,
+        "check": true
+      }
+    ],
+    "graphicsMemory": 7,
+    "serviceEnable": true,
+    "pixelTwinInstance": []
+  }
+]
