@@ -12,6 +12,7 @@
     "start:client": "cd client/pixel-twin-nexus-web && npm run dev",
     "start:slave": "cross-env NODE_ENV=slave nest start --watch",
     
+    "build:client":"cd client/pixel-twin-nexus-web && npm run build",
     "build": "nest build -p tsconfig.production.json && node scripts/obfuscate.js advanced && cd client/pixel-twin-nexus-web && npm run build",
     "build:basic": "nest build -p tsconfig.production.json && node scripts/obfuscate.js basic && cd client/pixel-twin-nexus-web && npm run build",
     "build:medium": "nest build -p tsconfig.production.json && node scripts/obfuscate.js medium && cd client/pixel-twin-nexus-web && npm run build",

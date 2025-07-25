@@ -42,17 +42,15 @@
 
 ### 安装依赖
 ```bash
-# 安装后端依赖
-npm install
 
-# 安装前端依赖
+# 安装依赖
 npm run install:all
 ```
 
 ### 构建项目
 ```bash
-# 构建生产版本
-npm run build
+# 构建前端生产版本
+npm run build:client
 ```
 
 ### 启动服务
