@@ -47,23 +47,22 @@
 npm run install:all
 ```
 
-### 构建项目
+### 构建启动信令服务
 ```bash
 # 配置前端环境变量
-cp .env.production.local .env.production
+.env.production
 # 配置信令服务环境变量
-cp .env.master.local .env.master
-# 配置UE渲染子节点环境变量
-cp .env.slave.local .env.slave
-# 构建前端生产版本
+.env.master
+# 根据需求更改以上配置后，构建前端生产版本
 npm run build:client
+# 启动信令服务
+npm run start:prod:master
 ```
 
-### 启动服务
+### 启动UE渲染子节点(若信令服务无GPU｜需要多GPU服务器集群渲染)
 ```bash
-# 启动主节点
-npm run start:prod:master
-
+# 配置UE渲染子节点环境变量
+.env.slave
 # 启动从节点
 npm run start:prod:slave
 ```
@@ -73,7 +72,7 @@ npm run start:prod:slave
 # 使用 PM2 启动主节点
 npm run pm2:start:master
 
-# 使用 PM2 启动从节点
+# 使用 PM2 启动UE渲染子节点
 npm run pm2:start:slave
 ```
 
