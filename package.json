@@ -5,7 +5,6 @@
   "author": "Tadpole",
   "private": true,
   "license": "UNLICENSED",
-  "type": "module",
   "scripts": {
     "install:all": "npm install && cd client/pixel-twin-nexus-web && npm install",
     "start:master": "concurrently \"npm run start:server:master\" \"npm run start:client\"",
