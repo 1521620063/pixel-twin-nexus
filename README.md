@@ -60,10 +60,31 @@ npm run start:prod:master
 ```
 
 ### 启动UE渲染子节点(若信令服务无GPU｜需要多GPU服务器集群渲染)
+#### 配置UE渲染子节点环境变量
+    .env.slave
+#### 编辑配置 /json/pixelTwinSlaveGPU.json
+```json
+{
+  "ip": "192.168.9.218",
+  "gpu": [
+    {
+      "graphicsAdapter": 0,
+      "gpuMemory": 16
+    }
+  ]
+}
+```
+#### 编辑配置 /json/pixelTwinListSlave.json
+```json
+[
+    {
+        "pixelTwinId": "your_pixel_twin_id",
+        "pixelTwinStartPath": ""
+    }
+]
+```
 ```bash
-# 配置UE渲染子节点环境变量
-.env.slave
-# 启动从节点
+# 启动渲染子节点
 npm run start:prod:slave
 ```
 
