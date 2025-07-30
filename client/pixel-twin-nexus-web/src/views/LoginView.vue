@@ -117,6 +117,7 @@ const handleLogin = async () => {
       // 存储访问令牌到本地存储
       if (response.data.accessToken) {
         utils.auth.setToken(response.data.accessToken)
+        utils.auth.setUserInfo(response.data.user)
       }
 
       // 显示登录成功消息

@@ -69,14 +69,18 @@
         <v-list min-width="200">
           <v-list-item>
             <v-list-item-title class="font-weight-medium">
-              用户名
+              {{ userInfo?.username || '用户名' }}
             </v-list-item-title>
-            <v-list-item-subtitle>
-              1521620063@qq.com
-            </v-list-item-subtitle>
           </v-list-item>
           
           <v-divider></v-divider>
+          
+          <v-list-item @click="openModifyPasswordDialog">
+            <template v-slot:prepend>
+              <v-icon color="primary">mdi-lock-outline</v-icon>
+            </template>
+            <v-list-item-title>修改密码</v-list-item-title>
+          </v-list-item>
           
           <v-list-item @click="logout">
             <template v-slot:prepend>
@@ -103,8 +107,8 @@
           <v-avatar size="72" color="primary" class="mb-4 user-avatar">
             <v-icon size="36" color="white">mdi-account</v-icon>
           </v-avatar>
-          <div class="text-h6 font-weight-bold mb-1">欢迎回来</div>
-          <div class="text-body-2 text-medium-emphasis">管理员</div>
+          <div class="text-h6 font-weight-bold mb-1">欢迎回来，{{ userInfo?.name || userInfo?.username || '用户' }}</div>
+          <div class="text-body-2 text-medium-emphasis">{{ userInfo?.role || '管理员' }}</div>
           <v-chip
             size="small"
             color="success"
@@ -188,6 +192,9 @@
       </v-container>
     </v-main>
 
+    <!-- 修改密码弹窗 -->
+    <ModifyPasswordDialog v-model="modifyPasswordDialog" />
+    
     <!-- 底部状态栏 -->
     <v-footer
       app
@@ -221,13 +228,27 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { logout as routerLogout } from '@/router/routerUtils'
 import { routes } from '@/router'
+import utils from '@/utils'
+import ModifyPasswordDialog from '@/layouts/compontents/ModifyPasswordDialog.vue'
 
 const router = useRouter()
 const route = useRoute()
 
+// 弹窗相关逻辑
+const modifyPasswordDialog = ref(false)
+
+const openModifyPasswordDialog = () => {
+  modifyPasswordDialog.value = true
+}
+
+const closeModifyPasswordDialog = () => {
+  modifyPasswordDialog.value = false
+}
+
 // 响应式数据
 const drawer = ref(false)
 const currentTime = ref('')
+const userInfo = ref(null)
 
 /**
  * 根据路由配置自动生成菜单项
@@ -324,6 +345,9 @@ const logout = () => {
 onMounted(() => {
   updateTime()
   timeInterval = setInterval(updateTime, 1000)
+  
+  // 获取用户信息
+  userInfo.value = utils.auth.getUserInfo()
 })
 
 onUnmounted(() => {

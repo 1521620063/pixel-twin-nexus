@@ -32,4 +32,15 @@ export default {
      * @returns {Promise} 返回包含认证令牌和用户信息的 Promise
      */
     login: (axiosOpts) => apiClient({ url: '/auth/login', method: 'POST', ...axiosOpts }),
+    /**
+     * 修改用户信息接口
+     * @param {Object} axiosOpts - Axios 请求配置选项
+     * @param {Object} axiosOpts.data - 修改用户数据，包含用户名、旧密码、新用户名和新密码
+     * @param {string} axiosOpts.data.username - 新用户名
+     * @param {string} axiosOpts.data.oldPassword - 旧密码
+     * @param {string} axiosOpts.data.newPassword - 新密码
+     * @param {Object} requestOpts - 请求处理选项
+     * @returns {Promise} 返回包含修改结果的 Promise
+     */
+    modifyUser: (axiosOpts) => apiClient({ url: '/auth/modifyUser', method: 'POST', ...axiosOpts }),
 }
