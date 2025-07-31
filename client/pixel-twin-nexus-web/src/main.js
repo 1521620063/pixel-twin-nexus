@@ -15,7 +15,6 @@ import './assets/main.css'
 
 // Vue 3 核心依赖
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
 
 // 应用组件和路由
 import App from './App.vue'
@@ -154,7 +153,6 @@ const vuetify = createVuetify({
 const app = createApp(App)
 
 // 注册应用插件
-app.use(createPinia()) // 状态管理 - Pinia
 app.use(router)        // 路由管理 - Vue Router
 app.use(vuetify)       // UI 组件库 - Vuetify
 

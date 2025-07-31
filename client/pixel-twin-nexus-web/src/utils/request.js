@@ -19,7 +19,6 @@
  * @exports default - 配置好的 Axios 实例
  */
 import axios from 'axios'
-import { useRequest } from 'vue-request'
 import { API_CONFIG, ERROR_MESSAGES } from '@/config/api'
 import { useSnackbar } from '@/composables/useSnackbar'
 import utils from '.'

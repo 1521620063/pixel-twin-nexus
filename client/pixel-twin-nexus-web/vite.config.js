@@ -59,7 +59,7 @@ export default defineConfig(({ mode }) => {
       rollupOptions: {
         output: {
           manualChunks: {
-            vendor: ['vue', 'vue-router', 'pinia'],
+            vendor: ['vue', 'vue-router'],
             ui: ['vuetify']
           }
         }
