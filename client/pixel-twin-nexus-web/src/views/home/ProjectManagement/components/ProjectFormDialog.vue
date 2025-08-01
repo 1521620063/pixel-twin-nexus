@@ -301,7 +301,7 @@ const READONLY_PARAMS = [
 ]
 
 // 可编辑值的参数
-const EDITABLE_VALUE_PARAMS = ['-ResX', '-ResY', '-PixelStreamingWebRTCFps']
+const EDITABLE_VALUE_PARAMS = ['-ResX', '-ResY', '-PixelStreamingWebRTCFps', '-PixelStreamingWebRTCMinBitrate', '-PixelStreamingWebRTCMaxBitrate']
 
 // 判断参数名是否只读
 const isParamNameReadonly = (paramKey) => {
@@ -325,7 +325,9 @@ const getArgDescription = (argKey) => {
     '-ForceRes': '强制使用指定的分辨率设置',
     '-ResX': '设置水平分辨率（像素宽度）',
     '-ResY': '设置垂直分辨率（像素高度）',
-    '-PixelStreamingWebRTCFps': '设置WebRTC帧率，范围24-120fps，影响流传输的流畅度'
+    '-PixelStreamingWebRTCFps': '设置WebRTC帧率，范围24-120fps，影响流传输的流畅度',
+    '-PixelStreamingWebRTCMinBitrate': '设置WebRTC最小码率，范围100000-最大码率(bps)，影响流传输的质量和带宽使用。单位换算：1兆比特每秒 = 100万比特每秒',
+    '-PixelStreamingWebRTCMaxBitrate': '设置WebRTC最大码率，范围最小码率-100000000(bps)，影响流传输的质量和带宽使用。单位换算：1兆比特每秒 = 100万比特每秒'
   }
   return descriptions[argKey] || ''
 }
@@ -385,6 +387,18 @@ const fixedArgs = [
     value: 60,
     check: true,
     fixed: true
+  },
+  {
+    key: '-PixelStreamingWebRTCMinBitrate',
+    value: 100000,
+    check: true,
+    fixed: true
+  },
+  {
+    key: '-PixelStreamingWebRTCMaxBitrate',
+    value: 10000000,
+    check: true,
+    fixed: true
   }
 ]
 
@@ -434,6 +448,32 @@ const getArgValidationRules = (arg) => {
       const num = Number(value)
       if (isNaN(num)) return '分辨率必须是数字'
       if (num < 1 || num > 4096) return '分辨率必须在1-4096之间'
+      return true
+    })
+  } else if (arg.key === '-PixelStreamingWebRTCMinBitrate') {
+    rules.push((value) => {
+      if (!value) return true // 可选参数
+      const num = Number(value)
+      if (isNaN(num)) return '最小码率必须是数字'
+      if (num < 100000) return '最小码率不能小于100000'
+      // 检查是否小于最大码率
+      const maxBitrateArg = formData.pixelTwinArgs.find(a => a.key === '-PixelStreamingWebRTCMaxBitrate')
+      if (maxBitrateArg && maxBitrateArg.value && Number(maxBitrateArg.value) <= num) {
+        return '最小码率不能大于等于最大码率'
+      }
+      return true
+    })
+  } else if (arg.key === '-PixelStreamingWebRTCMaxBitrate') {
+    rules.push((value) => {
+      if (!value) return true // 可选参数
+      const num = Number(value)
+      if (isNaN(num)) return '最大码率必须是数字'
+      if (num > 100000000) return '最大码率不能大于100000000'
+      // 检查是否大于最小码率
+      const minBitrateArg = formData.pixelTwinArgs.find(a => a.key === '-PixelStreamingWebRTCMinBitrate')
+      if (minBitrateArg && minBitrateArg.value && Number(minBitrateArg.value) >= num) {
+        return '最大码率不能小于等于最小码率'
+      }
       return true
     })
   }

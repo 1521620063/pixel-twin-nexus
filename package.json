@@ -7,7 +7,7 @@
   "license": "MIT License",
   "scripts": {
     "install:all": "npm install && cd client/pixel-twin-nexus-web && npm install",
-
+    
     "start:master": "concurrently \"npm run start:server:master\" \"npm run start:client\"",
     "start:server:master": "cross-env NODE_ENV=master nest start --watch",
     "start:client": "cd client/pixel-twin-nexus-web && npm run dev",
@@ -22,7 +22,7 @@
 
     "start:prod:master": "cross-env NODE_ENV=master node dist/main",
     "start:prod:slave": "cross-env NODE_ENV=slave node dist/main",
-    
+
     "pm2:start:master": "pm2 start ecosystem.config.js --only pixel-twin-nexus-master",
     "pm2:start:slave": "pm2 start ecosystem.config.js --only pixel-twin-nexus-slave",
     "pm2:stop:master": "pm2 stop ecosystem.config.js --only pixel-twin-nexus-master",
@@ -46,6 +46,7 @@
     "@nestjs/throttler": "^6.4.0",
     "@nestjs/websockets": "^11.1.3",
     "@types/uuid": "^10.0.0",
+    "@vueuse/core": "^13.6.0",
     "bcrypt": "^6.0.0",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.2",

@@ -40,6 +40,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useSnackbar } from '@/composables/useSnackbar'
+import { useDebounceFn } from '@vueuse/core';
 import SettingsDisplay from '@/components/SettingsDisplay.vue'
 import { PixelTwinSDK, processWebRtcStats } from 'pixel-twin-player'
 
@@ -65,12 +66,12 @@ const webrtcStats = ref(null)
 
 let timer = null;
 
-// 窗口大小变化处理
-const handleWindowResize = () => {
+//防抖处理窗口大小变化
+const handleDebounceWindowResize = useDebounceFn(() => {
   PixelTwinPlayer.resize()
   //改变源媒体流的分辨率（不适合频繁调用）
-  // PixelTwinPlayer.setResolutionVideoOutPut()
-}
+  PixelTwinPlayer.setResolutionVideoOutPut()
+}, 500);
 
 onMounted(() => {
   window.PixelTwinPlayer = PixelTwinPlayer
@@ -92,6 +93,7 @@ onMounted(() => {
 
     onPlaySuccess: () => {
       isLoading.value = false;
+      PixelTwinPlayer.setResolutionVideoOutPut()
       getPeerConnectionStats()
       // PixelTwinPlayer.sendDataChannelMessage("'TQXT|11'")
     },
@@ -147,7 +149,7 @@ onMounted(() => {
   })
   
   // 监听窗口大小变化
-  window.addEventListener('resize', handleWindowResize)
+  window.addEventListener('resize', handleDebounceWindowResize)
 
   // 自动连接
   if (connectURL.value) {
@@ -161,7 +163,7 @@ onUnmounted(() => {
   PixelTwinPlayer.destroy()
 
   // 移除事件监听器
-  window.removeEventListener('resize', handleWindowResize)
+  window.removeEventListener('resize', handleDebounceWindowResize)
 })
 
 // 手动播放处理
