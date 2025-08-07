@@ -15,7 +15,7 @@
     "crypto-js": "^4.2.0",
     "js-cookie": "^3.0.5",
     "jsencrypt": "^3.3.2",
-    "pixel-twin-player": "^1.2.3",
+    "pixel-twin-player": "^1.2.4",
     "vite-plugin-vuetify": "^2.1.1",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1",

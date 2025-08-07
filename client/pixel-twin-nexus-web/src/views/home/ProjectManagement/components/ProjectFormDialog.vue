@@ -179,9 +179,9 @@
                         variant="outlined"
                         density="compact"
                         :readonly="isParamValueReadonly(arg)"
-                        :type="arg.key === '-PixelStreamingWebRTCFps' || arg.key === '-ResX' || arg.key === '-ResY' ? 'number' : 'text'"
-                        :min="arg.key === '-PixelStreamingWebRTCFps' ? 24 : (arg.key === '-ResX' || arg.key === '-ResY' ? 1 : undefined)"
-                        :max="arg.key === '-PixelStreamingWebRTCFps' ? 120 : (arg.key === '-ResX' || arg.key === '-ResY' ? 4096 : undefined)"
+                        :type="arg.key === '-PixelStreamingWebRTCFps' || arg.key === '-ResX' || arg.key === '-ResY' || arg.key === '-PixelStreamingWebRTCLowQpThreshold' || arg.key === '-PixelStreamingWebRTCHighQpThreshold' ? 'number' : 'text'"
+                        :min="arg.key === '-PixelStreamingWebRTCFps' ? 24 : (arg.key === '-ResX' || arg.key === '-ResY' ? 1 : (arg.key === '-PixelStreamingWebRTCLowQpThreshold' || arg.key === '-PixelStreamingWebRTCHighQpThreshold' ? 1 : undefined))"
+                        :max="arg.key === '-PixelStreamingWebRTCFps' ? 120 : (arg.key === '-ResX' || arg.key === '-ResY' ? 4096 : (arg.key === '-PixelStreamingWebRTCLowQpThreshold' || arg.key === '-PixelStreamingWebRTCHighQpThreshold' ? 51 : undefined))"
                         :rules="getArgValidationRules(arg)"
                         hide-details
                         placeholder="可选"
@@ -301,7 +301,7 @@ const READONLY_PARAMS = [
 ]
 
 // 可编辑值的参数
-const EDITABLE_VALUE_PARAMS = ['-ResX', '-ResY', '-PixelStreamingWebRTCFps', '-PixelStreamingWebRTCMinBitrate', '-PixelStreamingWebRTCMaxBitrate']
+const EDITABLE_VALUE_PARAMS = ['-ResX', '-ResY', '-PixelStreamingWebRTCFps', '-PixelStreamingWebRTCMinBitrate', '-PixelStreamingWebRTCMaxBitrate', '-PixelStreamingWebRTCLowQpThreshold', '-PixelStreamingWebRTCHighQpThreshold']
 
 // 判断参数名是否只读
 const isParamNameReadonly = (paramKey) => {
@@ -327,7 +327,9 @@ const getArgDescription = (argKey) => {
     '-ResY': '设置垂直分辨率（像素高度）',
     '-PixelStreamingWebRTCFps': '设置WebRTC帧率，范围24-120fps，影响流传输的流畅度',
     '-PixelStreamingWebRTCMinBitrate': '设置WebRTC最小码率，范围100000-最大码率(bps)，影响流传输的质量和带宽使用。单位换算：1兆比特每秒 = 100万比特每秒',
-    '-PixelStreamingWebRTCMaxBitrate': '设置WebRTC最大码率，范围最小码率-100000000(bps)，影响流传输的质量和带宽使用。单位换算：1兆比特每秒 = 100万比特每秒'
+    '-PixelStreamingWebRTCMaxBitrate': '设置WebRTC最大码率，范围最小码率-100000000(bps)，影响流传输的质量和带宽使用。单位换算：1兆比特每秒 = 100万比特每秒',
+    '-PixelStreamingWebRTCLowQpThreshold': '设置WebRTC低QP阈值，范围1-51，影响视频编码质量控制',
+    '-PixelStreamingWebRTCHighQpThreshold': '设置WebRTC高QP阈值，范围1-51，影响视频编码质量控制'
   }
   return descriptions[argKey] || ''
 }
@@ -396,7 +398,19 @@ const fixedArgs = [
   },
   {
     key: '-PixelStreamingWebRTCMaxBitrate',
-    value: 10000000,
+    value: 50000000,
+    check: true,
+    fixed: true
+  },
+  {
+    key: '-PixelStreamingWebRTCLowQpThreshold',
+    value: 25,
+    check: true,
+    fixed: true
+  },
+  {
+    key: '-PixelStreamingWebRTCHighQpThreshold',
+    value: 37,
     check: true,
     fixed: true
   }
@@ -473,6 +487,32 @@ const getArgValidationRules = (arg) => {
       const minBitrateArg = formData.pixelTwinArgs.find(a => a.key === '-PixelStreamingWebRTCMinBitrate')
       if (minBitrateArg && minBitrateArg.value && Number(minBitrateArg.value) >= num) {
         return '最大码率不能小于等于最小码率'
+      }
+      return true
+    })
+  } else if (arg.key === '-PixelStreamingWebRTCLowQpThreshold') {
+    rules.push((value) => {
+      if (!value) return true // 可选参数
+      const num = Number(value)
+      if (isNaN(num)) return '低QP阈值必须是数字'
+      if (num < 1 || num > 51) return '低QP阈值必须在1-51之间'
+      // 检查是否小于高QP阈值
+      const highQpArg = formData.pixelTwinArgs.find(a => a.key === '-PixelStreamingWebRTCHighQpThreshold')
+      if (highQpArg && highQpArg.value && Number(highQpArg.value) <= num) {
+        return '低QP阈值不能大于等于高QP阈值'
+      }
+      return true
+    })
+  } else if (arg.key === '-PixelStreamingWebRTCHighQpThreshold') {
+    rules.push((value) => {
+      if (!value) return true // 可选参数
+      const num = Number(value)
+      if (isNaN(num)) return '高QP阈值必须是数字'
+      if (num < 1 || num > 51) return '高QP阈值必须在1-51之间'
+      // 检查是否大于低QP阈值
+      const lowQpArg = formData.pixelTwinArgs.find(a => a.key === '-PixelStreamingWebRTCLowQpThreshold')
+      if (lowQpArg && lowQpArg.value && Number(lowQpArg.value) >= num) {
+        return '高QP阈值不能小于等于低QP阈值'
       }
       return true
     })
