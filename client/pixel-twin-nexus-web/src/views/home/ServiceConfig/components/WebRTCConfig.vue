@@ -130,6 +130,31 @@
                 </v-select>
               </div>
             </v-col>
+
+            <!-- ICE Candidate Pool Size -->
+            <v-col cols="12" md="6">
+              <div class="config-field-wrapper">
+                <v-slider v-model="config.peerConnectionOptions.iceCandidatePoolSize" :min="0" :max="10" :step="1"
+                  label="ICE 候选池大小" variant="outlined" prepend-inner-icon="mdi-pool" :rules="[rules.iceCandidatePoolSize]"
+                  @update:model-value="markAsChanged" show-ticks thumb-label>
+                  <template v-slot:append>
+                    <v-tooltip location="top">
+                      <template v-slot:activator="{ props }">
+                        <v-icon v-bind="props" color="info" size="small">mdi-information-outline</v-icon>
+                      </template>
+                      <div class="tooltip-content">
+                        <div class="text-subtitle-2 mb-1">ICE 候选池大小说明</div>
+                        <div class="text-body-2">
+                          控制预加载的 ICE 候选者数量，范围 0-10，默认值 0：<br>
+                          • <strong>0</strong>：不预加载候选者<br>
+                          • <strong>1-10</strong>：预加载指定数量的候选者以加快连接建立
+                        </div>
+                      </div>
+                    </v-tooltip>
+                  </template>
+                </v-slider>
+              </div>
+            </v-col>
           </v-row>
         </v-form>
       </v-card-text>
@@ -266,6 +291,7 @@ const config = ref({
     iceTransportPolicy: 'all',
     bundlePolicy: 'balanced',
     rtcpMuxPolicy: 'require',
+    iceCandidatePoolSize: 0,
     iceServers: [
       {
         urls: 'stun:stun.l.google.com:19302'
@@ -333,6 +359,11 @@ const rules = {
     if (!value) return true
     const urlPattern = /^(stun|turn|turns):[\w.-]+:\d+$/
     return urlPattern.test(value) || '请输入有效的 STUN/TURN 服务器 URL'
+  },
+  iceCandidatePoolSize: value => {
+    if (value === undefined || value === null) return '此字段为必填项'
+    if (Number.isInteger(value) && value >= 0 && value <= 10) return true
+    return '请输入 0-10 之间的整数'
   }
 }
 

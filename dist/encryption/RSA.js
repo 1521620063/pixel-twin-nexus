@@ -1,1 +1,54 @@
-function _0x177a(_0x4aa344,_0x26da3f){const _0x4801fc=_0x2683();return _0x177a=function(_0xf20e99,_0x52866b){_0xf20e99=_0xf20e99-0x146;let _0x77e9bf=_0x4801fc[_0xf20e99];if(_0x177a['GnSlmZ']===undefined){var _0x1854d5=function(_0x177a0c){const _0x57a661='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x5cd43c='',_0x5eedb0='',_0x4508de=_0x5cd43c+_0x1854d5;for(let _0x58ce8c=0x0,_0x2513f7,_0x5e050a,_0x6fa3c2=0x0;_0x5e050a=_0x177a0c['charAt'](_0x6fa3c2++);~_0x5e050a&&(_0x2513f7=_0x58ce8c%0x4?_0x2513f7*0x40+_0x5e050a:_0x5e050a,_0x58ce8c++%0x4)?_0x5cd43c+=_0x4508de['charCodeAt'](_0x6fa3c2+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x2513f7>>(-0x2*_0x58ce8c&0x6)):_0x58ce8c:0x0){_0x5e050a=_0x57a661['indexOf'](_0x5e050a);}for(let _0x20b1aa=0x0,_0x3cfa0a=_0x5cd43c['length'];_0x20b1aa<_0x3cfa0a;_0x20b1aa++){_0x5eedb0+='%'+('00'+_0x5cd43c['charCodeAt'](_0x20b1aa)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5eedb0);};_0x177a['wuFXbU']=_0x1854d5,_0x4aa344=arguments,_0x177a['GnSlmZ']=!![];}const _0x4c089a=_0x4801fc[0x0],_0x11423b=_0xf20e99+_0x4c089a,_0x26831c=_0x4aa344[_0x11423b];if(!_0x26831c){const _0x49e3e2=function(_0x370a57){this['AzreAV']=_0x370a57,this['wHLBpc']=[0x1,0x0,0x0],this['TsdHYe']=function(){return'newState';},this['pTqBlo']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['AkfUvH']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x49e3e2['prototype']['CiYfei']=function(){const _0x37cdd0=new RegExp(this['pTqBlo']+this['AkfUvH']),_0x1fa889=_0x37cdd0['test'](this['TsdHYe']['toString']())?--this['wHLBpc'][0x1]:--this['wHLBpc'][0x0];return this['mLxDPg'](_0x1fa889);},_0x49e3e2['prototype']['mLxDPg']=function(_0x3f1037){if(!Boolean(~_0x3f1037))return _0x3f1037;return this['lbKLpN'](this['AzreAV']);},_0x49e3e2['prototype']['lbKLpN']=function(_0x50a9ce){for(let _0x134c71=0x0,_0x58e58f=this['wHLBpc']['length'];_0x134c71<_0x58e58f;_0x134c71++){this['wHLBpc']['push'](Math['round'](Math['random']())),_0x58e58f=this['wHLBpc']['length'];}return _0x50a9ce(this['wHLBpc'][0x0]);},new _0x49e3e2(_0x177a)['CiYfei'](),_0x77e9bf=_0x177a['wuFXbU'](_0x77e9bf),_0x4aa344[_0x11423b]=_0x77e9bf;}else _0x77e9bf=_0x26831c;return _0x77e9bf;},_0x177a(_0x4aa344,_0x26da3f);}const _0x1a592e=_0x177a;(function(_0x3aaec0,_0x4b1931){const _0x3bd3da=_0x177a,_0x437d38=_0x3aaec0();while(!![]){try{const _0xd0123d=parseInt(_0x3bd3da(0x15d))/0x1+-parseInt(_0x3bd3da(0x15e))/0x2*(parseInt(_0x3bd3da(0x181))/0x3)+parseInt(_0x3bd3da(0x14e))/0x4+parseInt(_0x3bd3da(0x14c))/0x5+parseInt(_0x3bd3da(0x166))/0x6*(parseInt(_0x3bd3da(0x156))/0x7)+parseInt(_0x3bd3da(0x17a))/0x8*(parseInt(_0x3bd3da(0x14b))/0x9)+-parseInt(_0x3bd3da(0x165))/0xa;if(_0xd0123d===_0x4b1931)break;else _0x437d38['push'](_0x437d38['shift']());}catch(_0x271e9a){_0x437d38['push'](_0x437d38['shift']());}}}(_0x2683,0x69392));const _0x11423b=(function(){let _0x5a5353=!![];return function(_0x442013,_0x1301d6){const _0x1235ae=_0x5a5353?function(){const _0x32c16e=_0x177a;if(_0x1301d6){const _0x15426f=_0x1301d6[_0x32c16e(0x16f)](_0x442013,arguments);return _0x1301d6=null,_0x15426f;}}:function(){};return _0x5a5353=![],_0x1235ae;};}()),_0x4c089a=_0x11423b(this,function(){const _0x29338f=_0x177a,_0x2bf705={};_0x2bf705[_0x29338f(0x186)]=_0x29338f(0x147);const _0x37bc5d=_0x2bf705;return _0x4c089a[_0x29338f(0x183)]()['search'](_0x29338f(0x147))[_0x29338f(0x183)]()['constructor'](_0x4c089a)['search'](_0x37bc5d[_0x29338f(0x186)]);});_0x4c089a();const _0x52866b=(function(){let _0x5183d9=!![];return function(_0x25eff5,_0x2cc8c7){const _0x437875=_0x5183d9?function(){if(_0x2cc8c7){const _0x17297d=_0x2cc8c7['apply'](_0x25eff5,arguments);return _0x2cc8c7=null,_0x17297d;}}:function(){};return _0x5183d9=![],_0x437875;};}()),_0xf20e99=_0x52866b(this,function(){const _0x132b4d=_0x177a,_0x2d0911={'hPeOF':function(_0x2a41df,_0x5e2d93){return _0x2a41df(_0x5e2d93);},'GuURP':function(_0x4604af,_0x45073b){return _0x4604af+_0x45073b;},'MYpSZ':_0x132b4d(0x182),'FeYPt':_0x132b4d(0x16e),'xSKZZ':'warn','JAjrA':_0x132b4d(0x184),'sliSx':_0x132b4d(0x15c),'QWFrm':_0x132b4d(0x160),'tgkxn':_0x132b4d(0x152)};let _0x4a5d9a;try{const _0x29c6a4=_0x2d0911[_0x132b4d(0x187)](Function,_0x2d0911[_0x132b4d(0x168)](_0x2d0911[_0x132b4d(0x168)](_0x2d0911[_0x132b4d(0x172)],_0x2d0911[_0x132b4d(0x155)]),');'));_0x4a5d9a=_0x29c6a4();}catch(_0x267ba2){_0x4a5d9a=window;}const _0x1c401d=_0x4a5d9a[_0x132b4d(0x14f)]=_0x4a5d9a[_0x132b4d(0x14f)]||{},_0x59d18d=[_0x132b4d(0x17d),_0x2d0911['xSKZZ'],_0x2d0911[_0x132b4d(0x159)],_0x2d0911[_0x132b4d(0x149)],'exception',_0x2d0911[_0x132b4d(0x185)],_0x2d0911[_0x132b4d(0x14d)]];for(let _0x2f35fc=0x0;_0x2f35fc<_0x59d18d[_0x132b4d(0x163)];_0x2f35fc++){const _0x29fc03=_0x52866b[_0x132b4d(0x175)][_0x132b4d(0x171)][_0x132b4d(0x17c)](_0x52866b),_0x491ac7=_0x59d18d[_0x2f35fc],_0x5cc7f5=_0x1c401d[_0x491ac7]||_0x29fc03;_0x29fc03[_0x132b4d(0x169)]=_0x52866b[_0x132b4d(0x17c)](_0x52866b),_0x29fc03['toString']=_0x5cc7f5[_0x132b4d(0x183)][_0x132b4d(0x17c)](_0x5cc7f5),_0x1c401d[_0x491ac7]=_0x29fc03;}});function _0x2683(){const _0x3f8a49=['Bg9N','u0PnBMK','uvffq3u','uLnbx1bssvzbvevFs0vz','m3P4yuHlva','CMv0DxjUicHMDw5JDgLVBIGPia','Dg9tDhjPBMC','Aw5MBW','uvDgCM0','qM1othK','AfbLt0y','uLnb5yQG5A+g5AsX6lsL','CvL1Euy','y3zPzNi','kcGOlISPkYKRksSK','uLnb6kEJ5A+g6zsz6k+VoG','C2XPu3G','C2v0uhjPDMf0zuTLEq','oxHOEMjLEa','nde5ndm4mhb4CMXLEa','DgDREg4','mJe0mZu1mKTZCxzcDa','y29UC29Szq','tMPjrMC','uLnb5ywS6zkL5PYQ6ywn572U77Ym6k+36k6+572UuLnbx1bvqKXjq19lrvNNJQ/LOOpLJ5JPH4/MIjBKVkdLHAvWDwjSAwnlzxNLJ4lMLBa','DhjHy2u','A2npseS','zgvMyxvSDf9RzxLFC2L6zq','rMvzuhq','mJK0tKvRDxzp','vuX3Chq','EKHpu1G','sKfQCKe','zw52','uLnb6kEJ5A+g5AsX6lsL','zxjYB3i','mJiYmJK1D3rNDuLJ','ntqWodm2ywXOr0fe','x19LC01VzhvSzq','DgfIBgu','BwvZC2fNzq','z2vUzxjHDgvsu0flzxLqywLY','BgvUz3rO','DMfSDwu','mJe0nJG2otb3uM15v1G','mta1nJm2Bg1oCgDz','q29mt2m','r3vvuLa','x19WCM90B19F','zw5JCNLWDa','zgvJCNLWDa','t2fPAgO','DhnVtLC','E30Uy29UC3rYDwn0B3iOiNjLDhvYBIb0AgLZiIKOicK','yxbWBhK','z3zvq3G','ChjVDg90ExbL','tvLWu1O','rgvJCNLWDfjZyq','z2v0uhjPDMf0zuTLEq','y29UC3rYDwn0B3i','uLnb56Eb6zkL5PYQ6ywn572U77Ym6k+36k6+572UuLnbx1bssvzbvevFs0vz546V5Akd5y+y6yEp5OIw5lYG5ywLChjPDMf0zuTLEEwpGUAvSa','qNjIsMK','z2v0uhvIBgLJs2v5','rw5JCNLWDfjZyq','nda5nde2mgnKuunZta','yMT6AfK','yMLUza'];_0x2683=function(){return _0x3f8a49;};return _0x2683();}_0xf20e99();'use strict';const _0x4a7846={};_0x4a7846[_0x1a592e(0x164)]=!![],Object['defineProperty'](exports,_0x1a592e(0x15f),_0x4a7846),exports[_0x1a592e(0x162)]=exports[_0x1a592e(0x173)]=exports[_0x1a592e(0x179)]=void 0x0;const JSEncrypt=require('node-jsencrypt'),EncryptRsa=(_0x39a4cb,_0x4e3aca)=>{const _0x19af8b=_0x1a592e,_0x1a8944={};_0x1a8944[_0x19af8b(0x17f)]=_0x19af8b(0x151),_0x1a8944[_0x19af8b(0x167)]=_0x19af8b(0x17e),_0x1a8944[_0x19af8b(0x17b)]='RSA加密错误:';const _0x51aad6=_0x1a8944;try{const _0x6b59a7=new JSEncrypt(),_0x2a2f53=_0x4e3aca||process[_0x19af8b(0x15a)]['RSA_PUBLIC_KEY'];if(!_0x2a2f53)throw new Error(_0x51aad6[_0x19af8b(0x17f)]);_0x6b59a7['setPublicKey'](_0x2a2f53);const _0x26a34d=_0x6b59a7[_0x19af8b(0x16a)](_0x39a4cb);if(!_0x26a34d){if(_0x51aad6[_0x19af8b(0x167)]===_0x19af8b(0x17e))throw new Error(_0x19af8b(0x188));else return _0x9d27d9[_0x19af8b(0x15c)](_0x19af8b(0x148),_0x2feda6[_0x19af8b(0x161)]),null;}return _0x26a34d;}catch(_0x212242){return console[_0x19af8b(0x15c)](_0x51aad6[_0x19af8b(0x17b)],_0x212242[_0x19af8b(0x161)]),null;}};exports[_0x1a592e(0x179)]=EncryptRsa;const DecryptRsa=(_0x2bcf7f,_0x7b3c29)=>{const _0x512d92=_0x1a592e,_0x5940f5={};_0x5940f5[_0x512d92(0x177)]=function(_0x491a3d,_0x11d2ef){return _0x491a3d===_0x11d2ef;},_0x5940f5[_0x512d92(0x158)]=function(_0x34c2cb,_0x1faef2){return _0x34c2cb===_0x1faef2;},_0x5940f5[_0x512d92(0x16d)]=function(_0x2591f2,_0x579bb8){return _0x2591f2!==_0x579bb8;},_0x5940f5[_0x512d92(0x157)]=function(_0x318c6c,_0x562876){return _0x318c6c!==_0x562876;},_0x5940f5[_0x512d92(0x150)]=_0x512d92(0x153),_0x5940f5[_0x512d92(0x16c)]=_0x512d92(0x148);const _0x24e3fb=_0x5940f5;try{const _0x515f51=new JSEncrypt(),_0x28b1ca=_0x7b3c29||process[_0x512d92(0x15a)][_0x512d92(0x180)];if(!_0x28b1ca)throw new Error(_0x512d92(0x176));_0x515f51[_0x512d92(0x14a)](_0x28b1ca);const _0x41fa61=_0x515f51[_0x512d92(0x16b)](_0x2bcf7f);if(_0x24e3fb[_0x512d92(0x177)](_0x41fa61,![])||_0x24e3fb[_0x512d92(0x158)](_0x41fa61,null)){if(_0x24e3fb[_0x512d92(0x16d)](_0x512d92(0x146),_0x512d92(0x189)))throw new Error(_0x512d92(0x15b));else _0x1a652c=_0x53d598;}return _0x41fa61;}catch(_0x52380a){if(_0x24e3fb['ULwpt'](_0x24e3fb['NjIFg'],_0x512d92(0x170)))return console[_0x512d92(0x15c)](_0x24e3fb[_0x512d92(0x16c)],_0x52380a['message']),null;else throw new _0x37c491(_0x512d92(0x188));}};exports[_0x1a592e(0x173)]=DecryptRsa;const generateRSAKeyPair=(_0x3bf8d2={})=>{const _0x5c77b1=_0x1a592e,{keySize:keySize=0x800}=_0x3bf8d2,_0x41049a={};_0x41049a[_0x5c77b1(0x154)]=keySize;const _0x1c872e=new JSEncrypt(_0x41049a);return{'publicKey':_0x1c872e[_0x5c77b1(0x178)](),'privateKey':_0x1c872e[_0x5c77b1(0x174)]()};};exports[_0x1a592e(0x162)]=generateRSAKeyPair;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.generateRSAKeyPair = exports.DecryptRsa = exports.EncryptRsa = void 0;
+const JSEncrypt = require("node-jsencrypt");
+const EncryptRsa = (word, publicKey) => {
+    try {
+        const encryptor = new JSEncrypt();
+        const keyToUse = publicKey || process.env.RSA_PUBLIC_KEY;
+        if (!keyToUse) {
+            throw new Error('RSA公钥未配置，请设置RSA_PUBLIC_KEY环境变量或传入publicKey参数');
+        }
+        encryptor.setPublicKey(keyToUse);
+        const encrypted = encryptor.encrypt(word);
+        if (!encrypted) {
+            throw new Error('RSA加密失败');
+        }
+        return encrypted;
+    }
+    catch (error) {
+        console.error('RSA加密错误:', error.message);
+        return null;
+    }
+};
+exports.EncryptRsa = EncryptRsa;
+const DecryptRsa = (word, privateKey) => {
+    try {
+        const decrypt = new JSEncrypt();
+        const keyToUse = privateKey || process.env.RSA_PRIVATE_KEY;
+        if (!keyToUse) {
+            throw new Error('RSA私钥未配置，请设置RSA_PRIVATE_KEY环境变量或传入privateKey参数');
+        }
+        decrypt.setPrivateKey(keyToUse);
+        const decrypted = decrypt.decrypt(word);
+        if (decrypted === false || decrypted === null) {
+            throw new Error('RSA解密失败');
+        }
+        return decrypted;
+    }
+    catch (error) {
+        console.error('RSA解密错误:', error.message);
+        return null;
+    }
+};
+exports.DecryptRsa = DecryptRsa;
+const generateRSAKeyPair = (options = {}) => {
+    const { keySize = 2048 } = options;
+    const jsencrypt = new JSEncrypt({ default_key_size: keySize });
+    return {
+        publicKey: jsencrypt.getPublicKey(),
+        privateKey: jsencrypt.getPrivateKey()
+    };
+};
+exports.generateRSAKeyPair = generateRSAKeyPair;
+//# sourceMappingURL=RSA.js.map

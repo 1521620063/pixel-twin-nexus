@@ -1,1 +1,170 @@
-const _0x1c8a93=_0x2aaa;(function(_0x255f2b,_0x1ce32f){const _0xca06c0=_0x2aaa,_0x388c55=_0x255f2b();while(!![]){try{const _0x5a8121=parseInt(_0xca06c0(0xf5))/0x1+parseInt(_0xca06c0(0x177))/0x2+-parseInt(_0xca06c0(0x17c))/0x3*(-parseInt(_0xca06c0(0x108))/0x4)+parseInt(_0xca06c0(0x131))/0x5+-parseInt(_0xca06c0(0xf4))/0x6*(parseInt(_0xca06c0(0x157))/0x7)+-parseInt(_0xca06c0(0x14b))/0x8+-parseInt(_0xca06c0(0x136))/0x9;if(_0x5a8121===_0x1ce32f)break;else _0x388c55['push'](_0x388c55['shift']());}catch(_0x1a0b96){_0x388c55['push'](_0x388c55['shift']());}}}(_0x1104,0xdd7e3));function _0x2aaa(_0x4f627b,_0x39a567){const _0x400bb0=_0x1104();return _0x2aaa=function(_0x557290,_0x7fb768){_0x557290=_0x557290-0xf0;let _0x3ea40=_0x400bb0[_0x557290];if(_0x2aaa['kpqpDY']===undefined){var _0x49ddda=function(_0x2aaacd){const _0xe768a1='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2b3e7b='',_0x5a2f74='',_0x512894=_0x2b3e7b+_0x49ddda;for(let _0x276e2a=0x0,_0x59bf94,_0x275e59,_0x184973=0x0;_0x275e59=_0x2aaacd['charAt'](_0x184973++);~_0x275e59&&(_0x59bf94=_0x276e2a%0x4?_0x59bf94*0x40+_0x275e59:_0x275e59,_0x276e2a++%0x4)?_0x2b3e7b+=_0x512894['charCodeAt'](_0x184973+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x59bf94>>(-0x2*_0x276e2a&0x6)):_0x276e2a:0x0){_0x275e59=_0xe768a1['indexOf'](_0x275e59);}for(let _0x3a1c43=0x0,_0x2ef5a0=_0x2b3e7b['length'];_0x3a1c43<_0x2ef5a0;_0x3a1c43++){_0x5a2f74+='%'+('00'+_0x2b3e7b['charCodeAt'](_0x3a1c43)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x5a2f74);};_0x2aaa['WUTQLE']=_0x49ddda,_0x4f627b=arguments,_0x2aaa['kpqpDY']=!![];}const _0x3f39f9=_0x400bb0[0x0],_0x28fe95=_0x557290+_0x3f39f9,_0x1104b7=_0x4f627b[_0x28fe95];if(!_0x1104b7){const _0x23a5fa=function(_0x31e468){this['MvwmBH']=_0x31e468,this['wRNqnK']=[0x1,0x0,0x0],this['FbvhUU']=function(){return'newState';},this['lMmErJ']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['FJqxob']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x23a5fa['prototype']['jwzTdz']=function(){const _0x42f5f4=new RegExp(this['lMmErJ']+this['FJqxob']),_0x1967c2=_0x42f5f4['test'](this['FbvhUU']['toString']())?--this['wRNqnK'][0x1]:--this['wRNqnK'][0x0];return this['RfDhjB'](_0x1967c2);},_0x23a5fa['prototype']['RfDhjB']=function(_0x258947){if(!Boolean(~_0x258947))return _0x258947;return this['qlnygr'](this['MvwmBH']);},_0x23a5fa['prototype']['qlnygr']=function(_0x38b514){for(let _0x18d851=0x0,_0x2439da=this['wRNqnK']['length'];_0x18d851<_0x2439da;_0x18d851++){this['wRNqnK']['push'](Math['round'](Math['random']())),_0x2439da=this['wRNqnK']['length'];}return _0x38b514(this['wRNqnK'][0x0]);},new _0x23a5fa(_0x2aaa)['jwzTdz'](),_0x3ea40=_0x2aaa['WUTQLE'](_0x3ea40),_0x4f627b[_0x28fe95]=_0x3ea40;}else _0x3ea40=_0x1104b7;return _0x3ea40;},_0x2aaa(_0x4f627b,_0x39a567);}const _0x28fe95=(function(){let _0x1fc4e8=!![];return function(_0x4c5a19,_0x435f0b){const _0x2b4d27=_0x1fc4e8?function(){const _0x798092=_0x2aaa;if(_0x435f0b){const _0x9a779f=_0x435f0b[_0x798092(0x169)](_0x4c5a19,arguments);return _0x435f0b=null,_0x9a779f;}}:function(){};return _0x1fc4e8=![],_0x2b4d27;};}()),_0x3f39f9=_0x28fe95(this,function(){const _0x33e2ea=_0x2aaa,_0x5decb4={};_0x5decb4[_0x33e2ea(0x119)]=_0x33e2ea(0x14a);const _0x1df942=_0x5decb4;return _0x3f39f9[_0x33e2ea(0x188)]()[_0x33e2ea(0x139)](_0x1df942[_0x33e2ea(0x119)])[_0x33e2ea(0x188)]()[_0x33e2ea(0xff)](_0x3f39f9)['search'](_0x33e2ea(0x14a));});_0x3f39f9();const _0x7fb768=(function(){let _0x271ded=!![];return function(_0x288913,_0x44e324){const _0x2f1efa=_0x271ded?function(){if(_0x44e324){const _0x5b422a=_0x44e324['apply'](_0x288913,arguments);return _0x44e324=null,_0x5b422a;}}:function(){};return _0x271ded=![],_0x2f1efa;};}()),_0x557290=_0x7fb768(this,function(){const _0x449b06=_0x2aaa,_0x58db7d={'UuOPp':function(_0x1b0b5e,_0x1f6aae){return _0x1b0b5e===_0x1f6aae;},'BRIdq':function(_0x4fbd9a,_0x2b997d){return _0x4fbd9a+_0x2b997d;},'WfpXy':_0x449b06(0x10c),'jiilp':function(_0x5cdfc5){return _0x5cdfc5();},'reEHh':_0x449b06(0xfa),'NXbaK':_0x449b06(0x12a)};let _0x32a687;try{if(_0x58db7d['UuOPp'](_0x449b06(0x13d),_0x449b06(0x166))){const _0x3cc661=_0x11f660?function(){const _0x531bfc=_0x449b06;if(_0x4aa2ff){const _0x38401d=_0x44ed81[_0x531bfc(0x169)](_0x486016,arguments);return _0x2edbfb=null,_0x38401d;}}:function(){};return _0x368b88=![],_0x3cc661;}else{const _0x30e8e3=Function(_0x58db7d[_0x449b06(0xf2)](_0x58db7d[_0x449b06(0x171)],'{}.constructor(\x22return\x20this\x22)(\x20)')+');');_0x32a687=_0x58db7d['jiilp'](_0x30e8e3);}}catch(_0x3f0520){_0x32a687=window;}const _0x3ae6bf=_0x32a687[_0x449b06(0x126)]=_0x32a687[_0x449b06(0x126)]||{},_0x2f42ce=[_0x58db7d[_0x449b06(0x150)],_0x449b06(0x10b),_0x58db7d['NXbaK'],_0x449b06(0x179),_0x449b06(0x16d),_0x449b06(0x127),_0x449b06(0x109)];for(let _0xd2da42=0x0;_0xd2da42<_0x2f42ce[_0x449b06(0x181)];_0xd2da42++){const _0x22f504=_0x7fb768[_0x449b06(0xff)][_0x449b06(0xf1)][_0x449b06(0x110)](_0x7fb768),_0x5f57d5=_0x2f42ce[_0xd2da42],_0x2e6517=_0x3ae6bf[_0x5f57d5]||_0x22f504;_0x22f504[_0x449b06(0x134)]=_0x7fb768['bind'](_0x7fb768),_0x22f504['toString']=_0x2e6517['toString'][_0x449b06(0x110)](_0x2e6517),_0x3ae6bf[_0x5f57d5]=_0x22f504;}});_0x557290();'use strict';var __decorate=this&&this[_0x1c8a93(0x17f)]||function(_0x377448,_0x59fb0c,_0x53a8dc,_0x48cf69){const _0x4342de=_0x1c8a93,_0x16a77f={'msvwn':function(_0x1d47c0,_0x24de75){return _0x1d47c0<_0x24de75;},'yCHxa':function(_0x2bbf19,_0x1607c4){return _0x2bbf19===_0x1607c4;},'NcLzR':'object','yaTnI':_0x4342de(0x161),'ZbKXk':function(_0x26b830,_0x5d4358){return _0x26b830<_0x5d4358;},'VorKH':function(_0x3bc16c,_0x3b4372){return _0x3bc16c>_0x3b4372;},'rOulx':function(_0x5bebe3,_0x1c4032,_0x2d13eb,_0x325719){return _0x5bebe3(_0x1c4032,_0x2d13eb,_0x325719);},'yMpts':function(_0x49b4db,_0x2580c8,_0x29e444){return _0x49b4db(_0x2580c8,_0x29e444);}};var _0xd165b8=arguments[_0x4342de(0x181)],_0x57a5ed=_0x16a77f['msvwn'](_0xd165b8,0x3)?_0x59fb0c:_0x16a77f[_0x4342de(0x15f)](_0x48cf69,null)?_0x48cf69=Object[_0x4342de(0x10a)](_0x59fb0c,_0x53a8dc):_0x48cf69,_0x48d4bf;if(_0x16a77f[_0x4342de(0x15f)](typeof Reflect,_0x16a77f[_0x4342de(0x13c)])&&typeof Reflect[_0x4342de(0x14d)]===_0x16a77f[_0x4342de(0x101)])_0x57a5ed=Reflect[_0x4342de(0x14d)](_0x377448,_0x59fb0c,_0x53a8dc,_0x48cf69);else{for(var _0x22025c=_0x377448[_0x4342de(0x181)]-0x1;_0x22025c>=0x0;_0x22025c--)if(_0x48d4bf=_0x377448[_0x22025c])_0x57a5ed=(_0x16a77f[_0x4342de(0x16b)](_0xd165b8,0x3)?_0x48d4bf(_0x57a5ed):_0x16a77f['VorKH'](_0xd165b8,0x3)?_0x16a77f[_0x4342de(0x11e)](_0x48d4bf,_0x59fb0c,_0x53a8dc,_0x57a5ed):_0x16a77f[_0x4342de(0xf6)](_0x48d4bf,_0x59fb0c,_0x53a8dc))||_0x57a5ed;}return _0x16a77f['VorKH'](_0xd165b8,0x3)&&_0x57a5ed&&Object[_0x4342de(0x12b)](_0x59fb0c,_0x53a8dc,_0x57a5ed),_0x57a5ed;},__metadata=this&&this[_0x1c8a93(0x15c)]||function(_0x4fd2f6,_0x545010){const _0x3da07e=_0x1c8a93,_0x32ca54={};_0x32ca54[_0x3da07e(0x154)]=function(_0x49aa99,_0x541cb0){return _0x49aa99===_0x541cb0;},_0x32ca54[_0x3da07e(0x115)]=function(_0x5dbfa1,_0x5e04a8){return _0x5dbfa1===_0x5e04a8;},_0x32ca54['BUQvc']=_0x3da07e(0x161);const _0x189990=_0x32ca54;if(_0x189990[_0x3da07e(0x154)](typeof Reflect,_0x3da07e(0x14f))&&_0x189990[_0x3da07e(0x115)](typeof Reflect[_0x3da07e(0x189)],_0x189990[_0x3da07e(0x173)]))return Reflect['metadata'](_0x4fd2f6,_0x545010);};const _0x11d522={};_0x11d522[_0x1c8a93(0x143)]=!![],Object[_0x1c8a93(0x12b)](exports,'__esModule',_0x11d522),exports[_0x1c8a93(0x142)]=void 0x0;function _0x1104(){const _0x533672=['DhjHy2u','z2v0t3DUuhjVCgvYDhLezxnJCMLWDg9Y','D2fYBG','CMv0DxjUicHMDw5JDgLVBIGPia','ze5puwC','vuvqCM9JzxnZ','zMLUza','yMLUza','D3ndBgLLBNq','C3bSAxq','B0PVtMq','vgDOuxm','y0TJvg0','C2XHDMvjBNn0yw5JzuXPC3q','AwDUB3jL','ueLyruXFvfDjtL9ttefwrv9hufu','vNf5Chy','nxWXFdr8mNWZFda','zwfIvKW','zwDoAge','AMnjEuO','CK91BhG','AxnszwnVBM5Ly3rPBMC','CgL4zwXuD2LUswq','AgfUzgXLtwvZC2fNzq','zxHPC3rZu3LUyW','BwvZC2fNzq','CMvJB25Uzwn0sw50zxj2ywW','C2vUze1LC3nHz2vuB01HC3rLCG','y29UC29Szq','DgfIBgu','Aw5KzxHpzG','C2vUza','Aw5MBW','zgvMAw5LuhjVCgvYDhK','CMvHzePZB25eyxrH','DhjLzs1RAwXS','B3zYBNi','q29UzMLNu2vYDMLJzq','CgfYC2u','nZyXnti2mffPEez4ra','uxj3zvO','t2nhCMm','x19WCM90B19F','56Es5zco5BcD6k+v6yEn5PAW6l+E5O6L5lI76iQc54k5lI4U','mtG3mdmZotvUEe5Vsee','5lUo6iQc54k55yID5AEl5yYw5AsX6lsLoG','E30Uy29UC3rYDwn0B3iOiNjLDhvYBIb0AgLZiIKOicK','C2vHCMnO','C3rKAw8','qg5LC3rQCY9JB25MAwC','tMnmELi','qurPvxi','v2vIu29JA2v0ioI/NUAoPEI2HEAxTG','CMvJB25Uzwn0vgLTzxi','sLnptL9qqvriuW','y0LvDfq','ugL4zwXuD2LUu2XHDMvtzxj2AwnL','DMfSDwu','wuvsrw4','D1vmsg0','CMfwCNq','zer6A24','y29UBMvJDfrVtwfZDgvY','lvbPEgvSu3rYzwfTAw5Nvvjmpq','kcGOlISPkYKRksSK','mJi0mtq2nhLTzxbRBW','zxzLBNq','zgvJB3jHDgu','C3bSAwnL','B2jQzwn0','CMvfsgG','CxrfDhy','ueLyruXFvfDjtL9msvnux1nmqvzf','D2LUzg93C0HPzgu','sfrbAem','C3rYAw5NAwz5','y2XLyxjszwnVBM5Ly3ruAw1LCG','ntGWmZKXy0P0vhv1','CgXHDgzVCM0','CgL4zwXuD2LUsw5ZDgfUy2vjza','B3bLBG','EKLhCgm','x19TzxrHzgf0yq','z2v0','zgfYD2LU','EuniEge','y29UzMLNu2vYDMLJzq','zNvUy3rPB24','z0LfzuO','yxjNCW','sNnVBLv0AwW','Dgn1DNq','s2TMEw4','C2XHDMvhChvdB25MAwC','C2XHDMvdB25MAwC','yxbWBhK','zgvZAwDUoNbHCMfTDhLWzxm','wMjlwgS','zgf0yq','zxHJzxb0Aw9U','C2XHDMvmAxn0','q1n6C3m','BNf4suy','v2zWwhK','verwv20','qLvrDMm','q0Pgtwm','CMvHzhLtDgf0zq','vwPYrgC','mJa0ndiXnhvXr1bxtW','s3vyt2u','zxjYB3i','C3bHD24','CgL4zwXuD2LUu3rHCNrqyxrO','m29VCMXpEG','Dg9sDw5qAxHLBfr3Aw4','thbXCMG','x19KzwnVCMf0zq','sw5Qzwn0ywjSzq','BgvUz3rO','u0LhtKfmx0nptK5fq1rFvvjm','y3DK','Dg9lAwXSugL4zwXuD2LU','u0Lhs0Lmta','vuvFq09otKvdvf9tsuDoquXFvvjm','y2HPBgrFChjVy2vZCW','Dg9tDhjPBMC','Bwv0ywrHDge','C2nOzwr1BgvszwnVBM5Ly3q','vxf4EKK','ChjVDg90ExbL','qLjjzhe','zgv0ywnOzwq','ntrcsKTMBLq','mte0mtCYq0fNqvvO','Eu1WDhm','lI4VDxrPBhm','q1DeAwq','Aw5PDfnSyxzL','Bg9N','D2LUmZi','ChvZAa','lI4Vy29UC3rHBNrZ','Dg5mt2K','y29UC3rYDwn0B3i','qg5LC3rQCY9JB21TB24','EwfuBKK','A2D4rMO','AxndB25Uzwn0zwq','u1zetMy','y0rOA1G','BwfW','Bw52AhO','ntqWotGZnKzZsffVuq'];_0x1104=function(){return _0x533672;};return _0x1104();}const common_1=require(_0x1c8a93(0x100)),config_1=require(_0x1c8a93(0x13b)),utils_1=require(_0x1c8a93(0xf7)),constants_1=require(_0x1c8a93(0xfd)),WebSocket=require('ws'),fs=require('fs'),child_process_1=require(_0x1c8a93(0x187)),treeKill=require(_0x1c8a93(0x12d));let PixelTwinSlaveService=class PixelTwinSlaveService{[_0x1c8a93(0x160)];[_0x1c8a93(0x167)]=null;['slaveList']=[];[_0x1c8a93(0x116)]=[];[_0x1c8a93(0x111)]=null;['isConnected']=![];[_0x1c8a93(0x11f)]=![];[_0x1c8a93(0x13f)]=null;['reconnectInterval']=0x1388;constructor(_0x346da4){const _0x538fd8=_0x1c8a93;this[_0x538fd8(0x160)]=_0x346da4,this[_0x538fd8(0xf9)]();}async['initSlave'](){const _0x2bfeed=_0x1c8a93,_0x11e995={};_0x11e995[_0x2bfeed(0x141)]=_0x2bfeed(0x174),_0x11e995[_0x2bfeed(0x144)]=_0x2bfeed(0x137);const _0x566d0e=_0x11e995;try{if(_0x2bfeed(0x174)!==_0x566d0e['cIUtT']){const _0xff1033={};_0xff1033['event']=_0x16090b,_0xff1033[_0x2bfeed(0x16c)]=_0x58ec8c,this[_0x2bfeed(0x111)][_0x2bfeed(0x129)](_0xe27b87[_0x2bfeed(0x155)](_0xff1033));}else{const _0x63df3f=await utils_1[_0x2bfeed(0x164)][_0x2bfeed(0x12c)](constants_1[_0x2bfeed(0x140)][_0x2bfeed(0x118)]);this['slaveGpuConfig']=_0x63df3f;const _0x4d1284=await utils_1[_0x2bfeed(0x164)][_0x2bfeed(0x12c)](constants_1[_0x2bfeed(0x140)][_0x2bfeed(0x152)]);this[_0x2bfeed(0x16e)]=_0x4d1284,await this['connectToMaster']();}}catch(_0x55e4f9){console['error'](_0x566d0e[_0x2bfeed(0x144)],_0x55e4f9);}}async[_0x1c8a93(0x148)](){const _0x584e9f=_0x1c8a93,_0x1cc7c3={'TghQs':_0x584e9f(0x11a),'CWDid':function(_0x2dcdde,_0x17cd26){return _0x2dcdde(_0x17cd26);},'dDzkn':function(_0x3a90d4,_0x4855e9){return _0x3a90d4(_0x4855e9);},'nqxIF':function(_0x35b28c,_0x338a6c){return _0x35b28c!==_0x338a6c;},'eabVL':'WGaxz','jcIyJ':_0x584e9f(0x133),'GNmQs':_0x584e9f(0x15a),'egNha':_0x584e9f(0x123),'tiQRv':'close','kLenm':_0x584e9f(0x179),'kgxFj':function(_0xdd9fe5,_0xce569d,_0x4e5a29){return _0xdd9fe5(_0xce569d,_0x4e5a29);},'kAcOt':_0x584e9f(0x182)};try{const _0x582ede=this[_0x584e9f(0x160)][_0x584e9f(0x15d)](_0x1cc7c3['kAcOt']);return new Promise((_0x193bd2,_0x1ec61a)=>{const _0x37b70b=_0x584e9f;if(_0x1cc7c3[_0x37b70b(0x170)](_0x1cc7c3[_0x37b70b(0x11b)],_0x1cc7c3[_0x37b70b(0x11d)]))this['wsClient']=new WebSocket(_0x582ede),this['wsClient']['on'](_0x1cc7c3['GNmQs'],()=>{const _0x24aaf5=_0x37b70b,_0x3cc335=_0x1cc7c3[_0x24aaf5(0x114)][_0x24aaf5(0x112)]('|');let _0x219b78=0x0;while(!![]){switch(_0x3cc335[_0x219b78++]){case'0':_0x193bd2();continue;case'1':this[_0x24aaf5(0x11f)]=![];continue;case'2':console[_0x24aaf5(0x12a)]('成功连接到主节点\x20WebSocket\x20服务');continue;case'3':this[_0x24aaf5(0x125)](_0x24aaf5(0x168),{...this[_0x24aaf5(0x167)],'slaveList':this[_0x24aaf5(0x16e)]});continue;case'4':this[_0x24aaf5(0x156)]();continue;case'5':this[_0x24aaf5(0x103)]=!![];continue;}break;}}),this[_0x37b70b(0x111)]['on'](_0x1cc7c3[_0x37b70b(0x11c)],_0x119e0d=>{const _0x293e1d=_0x37b70b;this[_0x293e1d(0x121)](_0x119e0d);}),this[_0x37b70b(0x111)]['on'](_0x1cc7c3['tiQRv'],(_0x33a86f,_0x583a42)=>{const _0x15bfab=_0x37b70b;this['isConnected']=![],this[_0x15bfab(0x18a)]();}),this[_0x37b70b(0x111)]['on'](_0x1cc7c3['kLenm'],_0x501c92=>{const _0x5985bb=_0x37b70b;this[_0x5985bb(0x103)]=![],_0x1cc7c3[_0x5985bb(0xf8)](_0x1ec61a,_0x501c92);}),_0x1cc7c3[_0x37b70b(0x102)](setTimeout,()=>{const _0x54d316=_0x37b70b;!this[_0x54d316(0x103)]&&_0x1cc7c3[_0x54d316(0x147)](_0x1ec61a,new Error(_0x54d316(0x13e)));},0x2710);else{if(_0x3db5bf){const _0x290958=_0x5ad4de['apply'](_0x435dbe,arguments);return _0x4ef074=null,_0x290958;}}});}catch(_0x46b293){}}[_0x1c8a93(0x18a)](){const _0x5ce01c=_0x1c8a93,_0x24ce74={'oJoNd':'return\x20(function()\x20','ovrnr':_0x5ce01c(0x138),'UjrDg':function(_0x4b7e36,_0x464dea){return _0x4b7e36!==_0x464dea;},'qtEtv':'QrweZ','VLNqu':function(_0x17439e,_0x2a419f){return _0x17439e/_0x2a419f;},'tcuvt':function(_0x33f749,_0x4d0786,_0x1e28a9){return _0x33f749(_0x4d0786,_0x1e28a9);}};if(this['isReconnecting'])return;this[_0x5ce01c(0x11f)]=!![],console[_0x5ce01c(0x12a)](_0x24ce74['VLNqu'](this[_0x5ce01c(0x124)],0x3e8)+_0x5ce01c(0x135)),this[_0x5ce01c(0x13f)]=_0x24ce74[_0x5ce01c(0x165)](setTimeout,async()=>{const _0x555b60=_0x5ce01c;if(_0x24ce74[_0x555b60(0x176)](_0x555b60(0x132),_0x24ce74[_0x555b60(0x151)])){const _0x1725f0=_0x146a0c(iXfVxf[_0x555b60(0x113)]+iXfVxf[_0x555b60(0x12e)]+');');_0x5b8ee9=_0x1725f0();}else try{await this[_0x555b60(0x148)]();}catch(_0x480f0d){this[_0x555b60(0x11f)]=![],this[_0x555b60(0x18a)]();}},this[_0x5ce01c(0x124)]);}[_0x1c8a93(0x156)](){const _0x46f34e=_0x1c8a93,_0x4d1499={};_0x4d1499['TDVWm']=_0x46f34e(0x13e),_0x4d1499[_0x46f34e(0x107)]=_0x46f34e(0x10d);const _0x3e7b7f=_0x4d1499;this[_0x46f34e(0x13f)]&&(_0x3e7b7f[_0x46f34e(0x107)]!==_0x46f34e(0x17e)?(clearTimeout(this[_0x46f34e(0x13f)]),this[_0x46f34e(0x13f)]=null):!this['isConnected']&&_0x1e553d(new _0x1c7684(_0x3e7b7f[_0x46f34e(0x172)])));}[_0x1c8a93(0x121)](_0x5be636){const _0x48531f=_0x1c8a93;try{const {event:_0x5ba096,data:_0xd74392}=JSON[_0x48531f(0x130)](_0x5be636[_0x48531f(0x188)]());switch(_0x5ba096){case _0x48531f(0x17d):this[_0x48531f(0x17d)](_0xd74392[_0x48531f(0x120)],_0xd74392[_0x48531f(0x163)],_0xd74392[_0x48531f(0x159)]);break;case _0x48531f(0x184):this[_0x48531f(0x184)](_0xd74392[_0x48531f(0x159)]);break;}}catch(_0x55a589){}}[_0x1c8a93(0x125)](_0x1deb23,_0xe841c0){const _0x18da5a=_0x1c8a93,_0x44c4f2={};_0x44c4f2[_0x18da5a(0x178)]=function(_0x1b5f6a,_0x61e9c7){return _0x1b5f6a===_0x61e9c7;};const _0x2b3ac2=_0x44c4f2;if(this[_0x18da5a(0x111)]&&_0x2b3ac2[_0x18da5a(0x178)](this[_0x18da5a(0x111)][_0x18da5a(0x175)],WebSocket['OPEN'])){const _0x5df18a={};_0x5df18a[_0x18da5a(0x14c)]=_0x1deb23,_0x5df18a['data']=_0xe841c0,this[_0x18da5a(0x111)][_0x18da5a(0x129)](JSON['stringify'](_0x5df18a));}}[_0x1c8a93(0x17d)](_0x51382b,_0x2c0ba7,_0x277b8e){const _0x135e0a=_0x1c8a93,_0x24523e={};_0x24523e['krNaE']=_0x135e0a(0x104),_0x24523e[_0x135e0a(0x105)]='-PixelStreamingURL',_0x24523e[_0x135e0a(0xfe)]=_0x135e0a(0x186),_0x24523e[_0x135e0a(0x146)]=function(_0x88b670,_0x2b29b4){return _0x88b670==_0x2b29b4;},_0x24523e['CSzss']=_0x135e0a(0x15e),_0x24523e[_0x135e0a(0x145)]='linux',_0x24523e[_0x135e0a(0x15b)]=_0x135e0a(0x117);const _0x230cc8=_0x24523e,_0x5bf957=this[_0x135e0a(0x16e)][_0x135e0a(0x10f)](_0x1e6270=>_0x1e6270[_0x135e0a(0x120)]===_0x51382b);if(_0x5bf957){_0x2c0ba7=_0x2c0ba7[_0x135e0a(0x106)](_0x5e068c=>{const _0x4b0f07=_0x135e0a;if(_0x230cc8['krNaE']===_0x4b0f07(0x104)){if(_0x5e068c[_0x4b0f07(0x128)](_0x230cc8[_0x4b0f07(0x105)])>-0x1){let _0x37c7d4=_0x5e068c[_0x4b0f07(0x112)]('?')[0x1];_0x5e068c=_0x4b0f07(0x149)+this[_0x4b0f07(0x160)][_0x4b0f07(0x15d)](_0x230cc8[_0x4b0f07(0xfe)])+'?'+_0x37c7d4;}return _0x5e068c;}else _0x3520d2=_0x22b268;});if(fs[_0x135e0a(0x122)](_0x5bf957['pixelTwinStartPath'])){let _0x276f47=null;if(_0x230cc8['raVrt'](process[_0x135e0a(0x158)],_0x135e0a(0xfb))){const _0x56796f={};_0x56796f[_0x135e0a(0x183)]=__dirname,_0x56796f[_0x135e0a(0xf3)]=!![],_0x56796f[_0x135e0a(0x153)]=!![],_0x56796f[_0x135e0a(0x13a)]=_0x135e0a(0x117),_0x276f47=(0x0,child_process_1[_0x135e0a(0x17a)])(_0x5bf957[_0x135e0a(0x17b)],_0x2c0ba7,_0x56796f);}else{if(_0x230cc8['raVrt'](process[_0x135e0a(0x158)],_0x230cc8[_0x135e0a(0x16f)])){const _0x581122={};_0x581122[_0x135e0a(0x183)]=__dirname,_0x581122[_0x135e0a(0xf3)]=!![],_0x581122[_0x135e0a(0x13a)]=_0x135e0a(0x117),_0x276f47=(0x0,child_process_1[_0x135e0a(0x17a)])(_0x5bf957[_0x135e0a(0x17b)],_0x2c0ba7,_0x581122);}else{if(_0x230cc8[_0x135e0a(0x146)](process[_0x135e0a(0x158)],_0x230cc8[_0x135e0a(0x145)])){const _0x25df21={};_0x25df21[_0x135e0a(0x183)]=__dirname,_0x25df21[_0x135e0a(0xf3)]=!![],_0x25df21[_0x135e0a(0x13a)]=_0x230cc8[_0x135e0a(0x15b)],_0x276f47=(0x0,child_process_1[_0x135e0a(0x17a)])('sh',[_0x5bf957[_0x135e0a(0x17b)],..._0x2c0ba7],_0x25df21);}}}const _0x541c0a={};_0x541c0a[_0x135e0a(0x120)]=_0x51382b,_0x541c0a[_0x135e0a(0x159)]=_0x277b8e,_0x541c0a[_0x135e0a(0x10e)]=_0x276f47,this[_0x135e0a(0x116)][_0x135e0a(0xfc)](_0x541c0a);}else console['error']('项目ID为'+_0x51382b+'的项目不存在');}}[_0x1c8a93(0x184)](_0x4850ad){const _0x43456f=_0x1c8a93,_0x36a316={};_0x36a316[_0x43456f(0x162)]=function(_0x16bf2d,_0x1f5fe3){return _0x16bf2d===_0x1f5fe3;},_0x36a316[_0x43456f(0xf0)]=_0x43456f(0x185);const _0x1d5604=_0x36a316;for(let _0x26a3a8=0x0;_0x26a3a8<this[_0x43456f(0x116)][_0x43456f(0x181)];_0x26a3a8++){_0x1d5604['gIEeJ'](this[_0x43456f(0x116)][_0x26a3a8][_0x43456f(0x159)],_0x4850ad)&&(treeKill(this['slaveInstanceList'][_0x26a3a8][_0x43456f(0x10e)]['pid'],_0x1d5604[_0x43456f(0xf0)]),this[_0x43456f(0x116)][_0x43456f(0x14e)](_0x26a3a8,0x1),_0x26a3a8--);}}};exports[_0x1c8a93(0x142)]=PixelTwinSlaveService,exports[_0x1c8a93(0x142)]=PixelTwinSlaveService=__decorate([(0x0,common_1[_0x1c8a93(0x180)])(),__metadata(_0x1c8a93(0x16a),[config_1[_0x1c8a93(0x12f)]])],PixelTwinSlaveService);
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PixelTwinSlaveService = void 0;
+const common_1 = require("@nestjs/common");
+const config_1 = require("@nestjs/config");
+const utils_1 = require("../utils");
+const constants_1 = require("../constants");
+const WebSocket = require("ws");
+const fs = require("fs");
+const child_process_1 = require("child_process");
+const treeKill = require("tree-kill");
+let PixelTwinSlaveService = class PixelTwinSlaveService {
+    configService;
+    slaveGpuConfig = null;
+    slaveList = [];
+    slaveInstanceList = [];
+    wsClient = null;
+    isConnected = false;
+    isReconnecting = false;
+    reconnectTimer = null;
+    reconnectInterval = 5000;
+    constructor(configService) {
+        this.configService = configService;
+        this.initSlave();
+    }
+    async initSlave() {
+        try {
+            const slaveGpuData = await utils_1.JsonUtil.readJsonData(constants_1.JSON_PATHS.PIXEL_TWIN_SLAVE_GPU);
+            this.slaveGpuConfig = slaveGpuData;
+            const slaveListData = await utils_1.JsonUtil.readJsonData(constants_1.JSON_PATHS.PIXEL_TWIN_LIST_SLAVE);
+            this.slaveList = slaveListData;
+            await this.connectToMaster();
+        }
+        catch (error) {
+            console.error('从节点初始化失败:', error);
+        }
+    }
+    async connectToMaster() {
+        try {
+            const signalConnectUrl = this.configService.get('SIGNAL_CONNECT_URL');
+            return new Promise((resolve, reject) => {
+                this.wsClient = new WebSocket(signalConnectUrl);
+                this.wsClient.on('open', () => {
+                    this.isConnected = true;
+                    this.isReconnecting = false;
+                    this.clearReconnectTimer();
+                    console.info('成功连接到主节点 WebSocket 服务');
+                    this.sendMessageToMaster('slaveConfig', { ...this.slaveGpuConfig, slaveList: this.slaveList });
+                    resolve();
+                });
+                this.wsClient.on('message', (data) => {
+                    this.handleMessage(data);
+                });
+                this.wsClient.on('close', (code, reason) => {
+                    this.isConnected = false;
+                    this.scheduleReconnect();
+                });
+                this.wsClient.on('error', (error) => {
+                    this.isConnected = false;
+                    reject(error);
+                });
+                setTimeout(() => {
+                    if (!this.isConnected) {
+                        reject(new Error('WebSocket 连接超时'));
+                    }
+                }, 10000);
+            });
+        }
+        catch (error) {
+        }
+    }
+    scheduleReconnect() {
+        if (this.isReconnecting) {
+            return;
+        }
+        this.isReconnecting = true;
+        console.info(`${this.reconnectInterval / 1000}秒后尝试重新连接主节点...`);
+        this.reconnectTimer = setTimeout(async () => {
+            try {
+                await this.connectToMaster();
+            }
+            catch (error) {
+                this.isReconnecting = false;
+                this.scheduleReconnect();
+            }
+        }, this.reconnectInterval);
+    }
+    clearReconnectTimer() {
+        if (this.reconnectTimer) {
+            clearTimeout(this.reconnectTimer);
+            this.reconnectTimer = null;
+        }
+    }
+    handleMessage(message) {
+        try {
+            const { event, data } = JSON.parse(message.toString());
+            switch (event) {
+                case 'toRunPixelTwin':
+                    this.toRunPixelTwin(data.pixelTwinId, data.args, data.pixelTwinInstanceId);
+                    break;
+                case 'toKillPixelTwin':
+                    this.toKillPixelTwin(data.pixelTwinInstanceId);
+                    break;
+            }
+        }
+        catch (error) {
+        }
+    }
+    sendMessageToMaster(event, data) {
+        if (this.wsClient && this.wsClient.readyState === WebSocket.OPEN) {
+            this.wsClient.send(JSON.stringify({ event, data }));
+        }
+    }
+    toRunPixelTwin(pixelTwinId, args, pixelTwinInstanceId) {
+        const pixelTwinSlaveInfo = this.slaveList.find((item) => item.pixelTwinId === pixelTwinId);
+        if (pixelTwinSlaveInfo) {
+            args = args.map(v => {
+                if (v.indexOf('-PixelStreamingURL') > -1) {
+                    let query = v.split('?')[1];
+                    v = `-PixelStreamingURL=${this.configService.get('UE_CONNECT_SIGNAL_URL')}?${query}`;
+                }
+                return v;
+            });
+            if (fs.existsSync(pixelTwinSlaveInfo.pixelTwinStartPath)) {
+                let child = null;
+                if (process.platform == 'win32') {
+                    child = (0, child_process_1.spawn)(pixelTwinSlaveInfo.pixelTwinStartPath, args, { cwd: __dirname, detached: true, windowsHide: true, stdio: 'ignore' });
+                }
+                else if (process.platform == 'darwin') {
+                    child = (0, child_process_1.spawn)(pixelTwinSlaveInfo.pixelTwinStartPath, args, { cwd: __dirname, detached: true, stdio: 'ignore' });
+                }
+                else if (process.platform == 'linux') {
+                    child = (0, child_process_1.spawn)('sh', [pixelTwinSlaveInfo.pixelTwinStartPath, ...args], { cwd: __dirname, detached: true, stdio: 'ignore' });
+                }
+                this.slaveInstanceList.push({
+                    pixelTwinId,
+                    pixelTwinInstanceId,
+                    UEProcess: child
+                });
+            }
+            else {
+                console.error(`项目ID为${pixelTwinId}的项目不存在`);
+            }
+        }
+    }
+    toKillPixelTwin(pixelTwinInstanceId) {
+        for (let i = 0; i < this.slaveInstanceList.length; i++) {
+            if (this.slaveInstanceList[i].pixelTwinInstanceId === pixelTwinInstanceId) {
+                treeKill(this.slaveInstanceList[i].UEProcess.pid, 'SIGKILL');
+                this.slaveInstanceList.splice(i, 1);
+                i--;
+            }
+        }
+    }
+};
+exports.PixelTwinSlaveService = PixelTwinSlaveService;
+exports.PixelTwinSlaveService = PixelTwinSlaveService = __decorate([
+    (0, common_1.Injectable)(),
+    __metadata("design:paramtypes", [config_1.ConfigService])
+], PixelTwinSlaveService);
+//# sourceMappingURL=pixel-twin-slave.service.js.map

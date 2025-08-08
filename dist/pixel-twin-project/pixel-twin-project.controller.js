@@ -1,1 +1,99 @@
-const _0x44edb1=_0x3132;(function(_0x1f0369,_0x13d034){const _0x29f510=_0x3132,_0x5f66e8=_0x1f0369();while(!![]){try{const _0x138731=parseInt(_0x29f510(0x214))/0x1+-parseInt(_0x29f510(0x225))/0x2+-parseInt(_0x29f510(0x1ee))/0x3*(parseInt(_0x29f510(0x226))/0x4)+parseInt(_0x29f510(0x1f2))/0x5+-parseInt(_0x29f510(0x239))/0x6+-parseInt(_0x29f510(0x202))/0x7*(parseInt(_0x29f510(0x1f3))/0x8)+-parseInt(_0x29f510(0x1eb))/0x9*(-parseInt(_0x29f510(0x1f7))/0xa);if(_0x138731===_0x13d034)break;else _0x5f66e8['push'](_0x5f66e8['shift']());}catch(_0x2bc6ae){_0x5f66e8['push'](_0x5f66e8['shift']());}}}(_0x25ef,0x29207));const _0x4a6a63=(function(){const _0x4eaf7f=_0x3132,_0x34b27c={};_0x34b27c[_0x4eaf7f(0x1e6)]=function(_0x46d173,_0x2562bb){return _0x46d173===_0x2562bb;},_0x34b27c[_0x4eaf7f(0x21f)]=_0x4eaf7f(0x235);const _0xddc274=_0x34b27c;let _0xec5993=!![];return function(_0x12d91e,_0x5adb32){const _0x3d335c=_0x4eaf7f;if(_0xddc274[_0x3d335c(0x1e6)](_0x3d335c(0x235),_0xddc274[_0x3d335c(0x21f)])){const _0x165c54=_0xec5993?function(){const _0x5d7e9d=_0x3d335c;if(_0x5adb32){const _0x532977=_0x5adb32[_0x5d7e9d(0x22d)](_0x12d91e,arguments);return _0x5adb32=null,_0x532977;}}:function(){};return _0xec5993=![],_0x165c54;}else{const _0x390ee4={};_0x390ee4[_0x3d335c(0x1ff)]='添加项目失败',_0x390ee4[_0x3d335c(0x220)]=0x1f4;throw new _0x584811[(_0x3d335c(0x1e8))](_0x390ee4,_0x2d8687[_0x3d335c(0x244)][_0x3d335c(0x21a)]);}};}()),_0x32a83f=_0x4a6a63(this,function(){const _0x1ed249=_0x3132,_0x508571={};_0x508571[_0x1ed249(0x21d)]=_0x1ed249(0x20e);const _0x42752b=_0x508571;return _0x32a83f[_0x1ed249(0x21c)]()[_0x1ed249(0x1e7)](_0x42752b[_0x1ed249(0x21d)])['toString']()[_0x1ed249(0x1fd)](_0x32a83f)[_0x1ed249(0x1e7)](_0x42752b['WkvTR']);});_0x32a83f();function _0x3132(_0x227ed6,_0x37f89c){const _0x4bbac9=_0x25ef();return _0x3132=function(_0x1ef24c,_0x313a96){_0x1ef24c=_0x1ef24c-0x1de;let _0x5c73b9=_0x4bbac9[_0x1ef24c];if(_0x3132['qQjZLI']===undefined){var _0x1ad5cc=function(_0x31326b){const _0x3fe9f9='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x2ee9db='',_0x1e36ba='',_0x4984f8=_0x2ee9db+_0x1ad5cc;for(let _0x29b72f=0x0,_0x30dc3f,_0x33df00,_0x1d8f6a=0x0;_0x33df00=_0x31326b['charAt'](_0x1d8f6a++);~_0x33df00&&(_0x30dc3f=_0x29b72f%0x4?_0x30dc3f*0x40+_0x33df00:_0x33df00,_0x29b72f++%0x4)?_0x2ee9db+=_0x4984f8['charCodeAt'](_0x1d8f6a+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x30dc3f>>(-0x2*_0x29b72f&0x6)):_0x29b72f:0x0){_0x33df00=_0x3fe9f9['indexOf'](_0x33df00);}for(let _0x213a7c=0x0,_0x496c92=_0x2ee9db['length'];_0x213a7c<_0x496c92;_0x213a7c++){_0x1e36ba+='%'+('00'+_0x2ee9db['charCodeAt'](_0x213a7c)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x1e36ba);};_0x3132['DknJwk']=_0x1ad5cc,_0x227ed6=arguments,_0x3132['qQjZLI']=!![];}const _0x32a83f=_0x4bbac9[0x0],_0x4a6a63=_0x1ef24c+_0x32a83f,_0x25ef8a=_0x227ed6[_0x4a6a63];if(!_0x25ef8a){const _0x1e84ae=function(_0x57d5d0){this['lWAugc']=_0x57d5d0,this['fKUWdA']=[0x1,0x0,0x0],this['irAPXw']=function(){return'newState';},this['caGpVf']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['itgwAO']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x1e84ae['prototype']['gEFMbD']=function(){const _0x481261=new RegExp(this['caGpVf']+this['itgwAO']),_0x41cffe=_0x481261['test'](this['irAPXw']['toString']())?--this['fKUWdA'][0x1]:--this['fKUWdA'][0x0];return this['ArKRqR'](_0x41cffe);},_0x1e84ae['prototype']['ArKRqR']=function(_0x2ddedb){if(!Boolean(~_0x2ddedb))return _0x2ddedb;return this['vgNZMq'](this['lWAugc']);},_0x1e84ae['prototype']['vgNZMq']=function(_0x140b02){for(let _0x4318b1=0x0,_0xde5dd4=this['fKUWdA']['length'];_0x4318b1<_0xde5dd4;_0x4318b1++){this['fKUWdA']['push'](Math['round'](Math['random']())),_0xde5dd4=this['fKUWdA']['length'];}return _0x140b02(this['fKUWdA'][0x0]);},new _0x1e84ae(_0x3132)['gEFMbD'](),_0x5c73b9=_0x3132['DknJwk'](_0x5c73b9),_0x227ed6[_0x4a6a63]=_0x5c73b9;}else _0x5c73b9=_0x25ef8a;return _0x5c73b9;},_0x3132(_0x227ed6,_0x37f89c);}const _0x313a96=(function(){let _0x3ac222=!![];return function(_0x55874b,_0x3d1d9e){const _0x1d6925=_0x3ac222?function(){if(_0x3d1d9e){const _0x444c50=_0x3d1d9e['apply'](_0x55874b,arguments);return _0x3d1d9e=null,_0x444c50;}}:function(){};return _0x3ac222=![],_0x1d6925;};}()),_0x1ef24c=_0x313a96(this,function(){const _0x508d04=_0x3132,_0x10bd1d={'WMfBh':function(_0xa8ad43,_0x334da9){return _0xa8ad43===_0x334da9;},'eAeYW':_0x508d04(0x1e2),'QZPCP':function(_0x195679,_0x5f089b){return _0x195679(_0x5f089b);},'GJMza':'return\x20(function()\x20','HoVgw':function(_0x432e23){return _0x432e23();},'aqnlB':'log','mkhgz':_0x508d04(0x21e),'QMPhf':_0x508d04(0x1f8),'kfdUm':'table'};let _0x5b4e83;try{if(_0x10bd1d[_0x508d04(0x23c)](_0x10bd1d[_0x508d04(0x23d)],_0x508d04(0x1e2))){const _0x446ba7=_0x10bd1d[_0x508d04(0x23e)](Function,_0x10bd1d[_0x508d04(0x228)]+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x5b4e83=_0x10bd1d[_0x508d04(0x232)](_0x446ba7);}else{if(_0x2f6bbe){const _0x218c89=_0x1725d4[_0x508d04(0x22d)](_0x3378e5,arguments);return _0x68efd6=null,_0x218c89;}}}catch(_0x30d506){_0x5b4e83=window;}const _0x20ebf9=_0x5b4e83['console']=_0x5b4e83[_0x508d04(0x22b)]||{},_0x5f2b12=[_0x10bd1d[_0x508d04(0x208)],_0x508d04(0x20c),_0x10bd1d[_0x508d04(0x1fb)],_0x10bd1d[_0x508d04(0x1f6)],_0x508d04(0x238),_0x10bd1d[_0x508d04(0x230)],_0x508d04(0x1f5)];for(let _0x354359=0x0;_0x354359<_0x5f2b12['length'];_0x354359++){const _0x278242=_0x313a96[_0x508d04(0x1fd)][_0x508d04(0x236)][_0x508d04(0x201)](_0x313a96),_0x9b2e05=_0x5f2b12[_0x354359],_0x1dbe88=_0x20ebf9[_0x9b2e05]||_0x278242;_0x278242['__proto__']=_0x313a96[_0x508d04(0x201)](_0x313a96),_0x278242[_0x508d04(0x21c)]=_0x1dbe88[_0x508d04(0x21c)][_0x508d04(0x201)](_0x1dbe88),_0x20ebf9[_0x9b2e05]=_0x278242;}});_0x1ef24c();'use strict';function _0x25ef(){const _0x48ae96=['ntK4odyWELHSEKrj','v2zQBKG','x19TzxrHzgf0yq','v01MqMG','zufLwvC','uvPqq1a','vxnLr3vHCMrZ','vhrJBwK','DhDOre8','DMfSDwu','ywrKugL4zwXuD2LU','shr0Cfn0yxr1CW','CgL4zwXuD2LUswq','Bwv0ywrHDge','ChjVAMvJDc9KzwXLDgu','qxv0AeD1yxjK','zgvZAwDUoNjLDhvYBNr5Cgu','CgP3zxm','v25Pz0K','ChjVAMvJDc9SAxn0','yM9zBve','zgvMAw5LuhjVCgvYDhK','uxDrqMK','C2vHCMnO','shr0Cev4y2vWDgLVBG','uw5yDLG','B2jQzwn0','mtHhr2zJtwm','zgvZAwDUoNr5Cgu','6i635y+w6Ag555UU5yIx6kgO5AsX6lsL','odqZmefOvePUua','q29UDhjVBgXLCG','qg5LC3rQCY9JB21TB24','wuDWu1u','ndm1mtaWBfbIv1rR','mtzltgPywNi','zNvUy3rPB24','DhjHy2u','uu1qAgy','mJq3odGXmerjDuDRwq','zxjYB3i','BgvUz3rO','zgvSzxrLugL4zwXuD2LU','BwTOz3O','zu15yuO','y29UC3rYDwn0B3i','lI4Vyxv0Ac9HDxrOlMD1yxjK','zxjYB3jnzxnZywDL','s3zsBwi','yMLUza','nJiWmJq5y1fIu01X','qM9KEq','tgvhz2G','EfPurfq','x19LC01VzhvSzq','zgvZAwDUoNbHCMfTDhLWzxm','yxfUBei','uNnpu0y','lI9WAxHLBc10D2LUlxbYB2PLy3qUC2vYDMLJzq','5yIG6zMK6Ag555UU5AsX6lsL','D2fYBG','yNjnu3q','kcGOlISPkYKRksSK','z2v0uhjVAMvJDeXPC3q','rhbfBeK','Eu12BgW','Afbquhu','zgvJB3jHDgu','mti3mte3qNPWyxfV','wKzoEM0','ug9ZDa','ywrKuhjVAMvJDa','CeXizMW','DxbKyxrLugL4zwXuD2LU','su5urvjoquXFu0vsvKvsx0vsuK9s','z2v0ugL4zwXuD2LUtgLZDa','Dg9tDhjPBMC','v2T2vfi','Aw5MBW','vKD5y00','y29Kzq','x19WyxjHBq','57Yw6l6r6Ag555UU5AsX6lsL','ugL4zwXuD2LUuhjVAMvJDenVBNrYB2XSzxi','zwrPDfbYB2PLy3q','mJu5mdGWCw5ez1vn','mtKYyKvXyLfk','5RE75yQG6Ag555UU5AsX6lsL','r0PnEMe','x19KzwnVCMf0zq','sg1qy0G','y29UC29Szq','CgL4zwXuD2LUuhjVAMvJDfnLCNzPy2u','yxbWBhK','zgvSzxrLuhjVAMvJDa','ChjVAMvJDc9LzgL0','A2zKvw0','u0nAA0O','sg9wz3C','Bhvmu2G','CgHbzwC','B0vqDKK','ChjVDg90ExbL','wMHqD2S','zxHJzxb0Aw9U'];_0x25ef=function(){return _0x48ae96;};return _0x25ef();}var __decorate=this&&this[_0x44edb1(0x229)]||function(_0x433b07,_0x320f44,_0x337e5f,_0x469709){const _0x334941=_0x44edb1,_0x33ed4b={'phAeg':function(_0x42ee10,_0x52a4fc){return _0x42ee10<_0x52a4fc;},'boYmQ':function(_0x3eecb2,_0x227718){return _0x3eecb2===_0x227718;},'xZTDT':'object','QnXvX':function(_0x263353,_0x52d15b){return _0x263353===_0x52d15b;},'KOqeh':_0x334941(0x1f4),'SWLtK':function(_0x162382,_0x59dd98){return _0x162382-_0x59dd98;},'yMvll':function(_0x43627e,_0x8b9f65){return _0x43627e(_0x8b9f65);},'hPPPu':function(_0x2e0a1e,_0x1a6d20){return _0x2e0a1e>_0x1a6d20;}};var _0x47e0b2=arguments['length'],_0xcc59d=_0x33ed4b[_0x334941(0x234)](_0x47e0b2,0x3)?_0x320f44:_0x33ed4b[_0x334941(0x1e4)](_0x469709,null)?_0x469709=Object['getOwnPropertyDescriptor'](_0x320f44,_0x337e5f):_0x469709,_0x296170;if(typeof Reflect===_0x33ed4b[_0x334941(0x205)]&&_0x33ed4b[_0x334941(0x1e9)](typeof Reflect[_0x334941(0x213)],_0x33ed4b['KOqeh']))_0xcc59d=Reflect[_0x334941(0x213)](_0x433b07,_0x320f44,_0x337e5f,_0x469709);else{for(var _0x19721f=_0x33ed4b['SWLtK'](_0x433b07[_0x334941(0x1f9)],0x1);_0x19721f>=0x0;_0x19721f--)if(_0x296170=_0x433b07[_0x19721f])_0xcc59d=(_0x33ed4b[_0x334941(0x234)](_0x47e0b2,0x3)?_0x33ed4b[_0x334941(0x211)](_0x296170,_0xcc59d):_0x33ed4b[_0x334941(0x212)](_0x47e0b2,0x3)?_0x296170(_0x320f44,_0x337e5f,_0xcc59d):_0x296170(_0x320f44,_0x337e5f))||_0xcc59d;}return _0x47e0b2>0x3&&_0xcc59d&&Object[_0x334941(0x1e5)](_0x320f44,_0x337e5f,_0xcc59d),_0xcc59d;},__metadata=this&&this[_0x44edb1(0x23b)]||function(_0x204b0c,_0x4fb2d3){const _0xc70634=_0x44edb1,_0x2937e1={};_0x2937e1[_0xc70634(0x204)]=_0xc70634(0x1ea),_0x2937e1[_0xc70634(0x1e1)]=_0xc70634(0x1f4);const _0x577907=_0x2937e1;if(typeof Reflect===_0x577907[_0xc70634(0x204)]&&typeof Reflect[_0xc70634(0x246)]===_0x577907[_0xc70634(0x1e1)])return Reflect[_0xc70634(0x246)](_0x204b0c,_0x4fb2d3);},__param=this&&this[_0x44edb1(0x221)]||function(_0x56e0f4,_0x84c825){const _0x5e806d={'ZFNzm':function(_0x1ad4f7,_0x3ba212){return _0x1ad4f7(_0x3ba212);},'ZhPwk':function(_0x2f76ad,_0x109979){return _0x2f76ad+_0x109979;},'Ttcmi':'return\x20(function()\x20','luLSh':'{}.constructor(\x22return\x20this\x22)(\x20)','YGpSU':function(_0x3e3c52,_0x2bf67d){return _0x3e3c52===_0x2bf67d;},'eMyaJ':function(_0x4ae2fd,_0x32a5de,_0x1f47d4,_0x4516d1){return _0x4ae2fd(_0x32a5de,_0x1f47d4,_0x4516d1);}};return function(_0x359ba3,_0xb57bb6){const _0x25c673=_0x3132;if(_0x5e806d[_0x25c673(0x1f1)](_0x25c673(0x23a),_0x25c673(0x23a)))_0x5e806d[_0x25c673(0x1fc)](_0x84c825,_0x359ba3,_0xb57bb6,_0x56e0f4);else{const _0x2914c1=Srmqje[_0x25c673(0x215)](_0x2f1f79,Srmqje[_0x25c673(0x237)](Srmqje[_0x25c673(0x240)]+Srmqje[_0x25c673(0x233)],');'));_0x55cdcd=_0x2914c1();}};};const _0x2fb31d={};_0x2fb31d[_0x44edb1(0x242)]=!![],Object[_0x44edb1(0x1e5)](exports,_0x44edb1(0x206),_0x2fb31d),exports[_0x44edb1(0x223)]=void 0x0;const common_1=require(_0x44edb1(0x1f0)),pixel_twin_project_service_1=require(_0x44edb1(0x20a)),auth_guard_1=require(_0x44edb1(0x1fe));let PixelTwinProjectController=class PixelTwinProjectController{[_0x44edb1(0x22c)];constructor(_0x286b65){this['pixelTwinProjectService']=_0x286b65;}async[_0x44edb1(0x20f)](_0x335cf9){const _0x32085c=_0x44edb1;try{const {page:page=0x1,pageSize:pageSize=0xa,search:_0x55c02a}=_0x335cf9,_0x2dae57=await this[_0x32085c(0x22c)][_0x32085c(0x21b)](page,pageSize,_0x55c02a);return _0x2dae57;}catch(_0x50dbf5){const _0x311026={};_0x311026['errorMessage']=_0x32085c(0x1ed),_0x311026[_0x32085c(0x220)]=0x1f4;throw new common_1[(_0x32085c(0x1e8))](_0x311026,common_1[_0x32085c(0x244)]['INTERNAL_SERVER_ERROR']);}}async['addProject'](_0x51c7fe){const _0x1a4402=_0x44edb1,_0x4c109e={};_0x4c109e[_0x1a4402(0x20d)]=_0x1a4402(0x227);const _0x80ed01=_0x4c109e;try{const _0x52b956=await this[_0x1a4402(0x22c)][_0x1a4402(0x243)](_0x51c7fe);return _0x52b956;}catch(_0x3358b9){const _0x278de8={};_0x278de8[_0x1a4402(0x1ff)]=_0x80ed01[_0x1a4402(0x20d)],_0x278de8[_0x1a4402(0x220)]=0x1f4;throw new common_1['HttpException'](_0x278de8,common_1['HttpStatus'][_0x1a4402(0x21a)]);}}async[_0x44edb1(0x224)](_0x84cf30){const _0x17e235=_0x44edb1,_0x117d10={};_0x117d10[_0x17e235(0x218)]='CMLNi',_0x117d10[_0x17e235(0x231)]=_0x17e235(0x222);const _0x3b3241=_0x117d10;try{if(_0x3b3241[_0x17e235(0x218)]!=='CMLNi'){const _0x564f37={};_0x564f37[_0x17e235(0x1ff)]=_0x17e235(0x20b),_0x564f37[_0x17e235(0x220)]=0x1f4;throw new _0x51a36f[(_0x17e235(0x1e8))](_0x564f37,_0x278bc2[_0x17e235(0x244)][_0x17e235(0x21a)]);}else{const _0x38d2c3=await this[_0x17e235(0x22c)][_0x17e235(0x219)](_0x84cf30);return _0x38d2c3;}}catch(_0x1d7912){const _0xd2e9e9={};_0xd2e9e9['errorMessage']=_0x3b3241[_0x17e235(0x231)],_0xd2e9e9[_0x17e235(0x220)]=0x1f4;throw new common_1[(_0x17e235(0x1e8))](_0xd2e9e9,common_1[_0x17e235(0x244)][_0x17e235(0x21a)]);}}async[_0x44edb1(0x22e)](_0x382abe){const _0x36aba2=_0x44edb1,_0x2fde24={'HmPcH':function(_0x4d9aa5,_0x580ac1,_0x5b81a8,_0x320a0d){return _0x4d9aa5(_0x580ac1,_0x5b81a8,_0x320a0d);},'DHgdl':function(_0x5971b2,_0x1bec42){return _0x5971b2===_0x1bec42;},'KvRmb':_0x36aba2(0x210),'grGjk':_0x36aba2(0x241),'RsOSF':_0x36aba2(0x20b)};try{const _0x3fff4a=await this[_0x36aba2(0x22c)][_0x36aba2(0x1fa)](_0x382abe);return _0x3fff4a;}catch(_0x46bc8d){if(_0x2fde24['DHgdl'](_0x2fde24[_0x36aba2(0x200)],_0x2fde24['grGjk']))return function(_0x269681,_0x4087cb){const _0x2f5c46=_0x36aba2;_0x2fde24[_0x2f5c46(0x22a)](_0x30ae10,_0x269681,_0x4087cb,_0x18c109);};else{const _0x5a097f={};_0x5a097f[_0x36aba2(0x1ff)]=_0x2fde24[_0x36aba2(0x209)],_0x5a097f['code']=0x1f4;throw new common_1[(_0x36aba2(0x1e8))](_0x5a097f,common_1['HttpStatus'][_0x36aba2(0x21a)]);}}}};exports[_0x44edb1(0x223)]=PixelTwinProjectController,__decorate([(0x0,common_1[_0x44edb1(0x216)])(_0x44edb1(0x1e3)),(0x0,common_1[_0x44edb1(0x23f)])(auth_guard_1[_0x44edb1(0x1df)]),__param(0x0,(0x0,common_1[_0x44edb1(0x203)])()),__metadata('design:type',Function),__metadata(_0x44edb1(0x207),[Object]),__metadata('design:returntype',Promise)],PixelTwinProjectController[_0x44edb1(0x236)],_0x44edb1(0x20f),null),__decorate([(0x0,common_1['Post'])('project/add'),(0x0,common_1['UseGuards'])(auth_guard_1['AuthGuard']),__param(0x0,(0x0,common_1[_0x44edb1(0x203)])()),__metadata(_0x44edb1(0x1ec),Function),__metadata(_0x44edb1(0x207),[Object]),__metadata(_0x44edb1(0x1e0),Promise)],PixelTwinProjectController[_0x44edb1(0x236)],_0x44edb1(0x217),null),__decorate([(0x0,common_1[_0x44edb1(0x216)])(_0x44edb1(0x22f)),(0x0,common_1[_0x44edb1(0x23f)])(auth_guard_1['AuthGuard']),__param(0x0,(0x0,common_1[_0x44edb1(0x203)])()),__metadata(_0x44edb1(0x1ec),Function),__metadata(_0x44edb1(0x207),[Object]),__metadata(_0x44edb1(0x1e0),Promise)],PixelTwinProjectController[_0x44edb1(0x236)],_0x44edb1(0x224),null),__decorate([(0x0,common_1['Post'])(_0x44edb1(0x1de)),(0x0,common_1[_0x44edb1(0x23f)])(auth_guard_1['AuthGuard']),__param(0x0,(0x0,common_1[_0x44edb1(0x203)])(_0x44edb1(0x245))),__metadata('design:type',Function),__metadata('design:paramtypes',[String]),__metadata(_0x44edb1(0x1e0),Promise)],PixelTwinProjectController['prototype'],_0x44edb1(0x22e),null),exports[_0x44edb1(0x223)]=PixelTwinProjectController=__decorate([(0x0,common_1[_0x44edb1(0x1ef)])('pixel-twin'),__metadata(_0x44edb1(0x207),[pixel_twin_project_service_1['PixelTwinProjectService']])],PixelTwinProjectController);
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PixelTwinProjectController = void 0;
+const common_1 = require("@nestjs/common");
+const pixel_twin_project_service_1 = require("./pixel-twin-project.service");
+const auth_guard_1 = require("../auth/auth.guard");
+let PixelTwinProjectController = class PixelTwinProjectController {
+    pixelTwinProjectService;
+    constructor(pixelTwinProjectService) {
+        this.pixelTwinProjectService = pixelTwinProjectService;
+    }
+    async getProjectList(body) {
+        try {
+            const { page = 1, pageSize = 10, search } = body;
+            const result = await this.pixelTwinProjectService.getPixelTwinList(page, pageSize, search);
+            return result;
+        }
+        catch (error) {
+            throw new common_1.HttpException({ errorMessage: '获取项目列表失败', code: 500 }, common_1.HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+    async addProject(projectData) {
+        try {
+            const result = await this.pixelTwinProjectService.addPixelTwin(projectData);
+            return result;
+        }
+        catch (error) {
+            throw new common_1.HttpException({ errorMessage: '添加项目失败', code: 500 }, common_1.HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+    async editProject(body) {
+        try {
+            const result = await this.pixelTwinProjectService.updatePixelTwin(body);
+            return result;
+        }
+        catch (error) {
+            throw new common_1.HttpException({ errorMessage: '编辑项目失败', code: 500 }, common_1.HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+    async deleteProject(pixelTwinId) {
+        try {
+            const result = await this.pixelTwinProjectService.deletePixelTwin(pixelTwinId);
+            return result;
+        }
+        catch (error) {
+            throw new common_1.HttpException({ errorMessage: '删除项目失败', code: 500 }, common_1.HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+};
+exports.PixelTwinProjectController = PixelTwinProjectController;
+__decorate([
+    (0, common_1.Post)('project/list'),
+    (0, common_1.UseGuards)(auth_guard_1.AuthGuard),
+    __param(0, (0, common_1.Body)()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", Promise)
+], PixelTwinProjectController.prototype, "getProjectList", null);
+__decorate([
+    (0, common_1.Post)('project/add'),
+    (0, common_1.UseGuards)(auth_guard_1.AuthGuard),
+    __param(0, (0, common_1.Body)()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", Promise)
+], PixelTwinProjectController.prototype, "addProject", null);
+__decorate([
+    (0, common_1.Post)('project/edit'),
+    (0, common_1.UseGuards)(auth_guard_1.AuthGuard),
+    __param(0, (0, common_1.Body)()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", Promise)
+], PixelTwinProjectController.prototype, "editProject", null);
+__decorate([
+    (0, common_1.Post)('project/delete'),
+    (0, common_1.UseGuards)(auth_guard_1.AuthGuard),
+    __param(0, (0, common_1.Body)('pixelTwinId')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", Promise)
+], PixelTwinProjectController.prototype, "deleteProject", null);
+exports.PixelTwinProjectController = PixelTwinProjectController = __decorate([
+    (0, common_1.Controller)('pixel-twin'),
+    __metadata("design:paramtypes", [pixel_twin_project_service_1.PixelTwinProjectService])
+], PixelTwinProjectController);
+//# sourceMappingURL=pixel-twin-project.controller.js.map
