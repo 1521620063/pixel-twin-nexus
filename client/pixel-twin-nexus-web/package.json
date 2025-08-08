@@ -1,6 +1,6 @@
 {
   "name": "pixel-twin-nexus-web",
-  "version": "0.0.1",
+  "version": "1.2.5",
   "private": true,
   "type": "module",
   "scripts": {
@@ -15,7 +15,7 @@
     "crypto-js": "^4.2.0",
     "js-cookie": "^3.0.5",
     "jsencrypt": "^3.3.2",
-    "pixel-twin-player": "^1.2.4",
+    "pixel-twin-player": "^1.2.5",
     "vite-plugin-vuetify": "^2.1.1",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1",

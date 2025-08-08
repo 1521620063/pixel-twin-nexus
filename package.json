@@ -1,6 +1,6 @@
 {
   "name": "pixel-twin-nexus",
-  "version": "1.0.1",
+  "version": "1.2.5",
   "description": "一个基于 NestJS + Vue 3 构建的企业级数字孪生管理平台，提供完整的前后端解决方案。后端提供 RESTful API 和 WebSocket 实时通信，前端支持实时数据可视化、WebRTC 流媒体播放和现代化 UI 交互。支持主从架构部署，可同时管理多个 Pixel Twin 实例",
   "author": "Tadpole",
   "private": false,
