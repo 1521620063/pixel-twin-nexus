@@ -476,11 +476,27 @@ const createProject = () => {
 
 // 复制项目ID
 const copyProjectId = async (pixelTwinId) => {
-  try {
-    await navigator.clipboard.writeText(pixelTwinId)
+  const execCommandFunc = (text) =>{
+    const textarea = document.createElement("textarea");
+    document.body.appendChild(textarea);
+    textarea.value = text;
+    textarea.select();
+    const successful = document.execCommand('copy');
+    return successful;
+  }
+  const clipboardWriteText = (text) => {
+    try {
+      navigator.clipboard.writeText(text)
+      return true
+    } catch (err) {
+      return false
+    }
+  }
+  if(document.execCommand&&execCommandFunc(pixelTwinId)){
     showSuccess('项目ID已复制到剪贴板')
-  } catch (error) {
-    console.error('复制失败:', error)
+  }else if(navigator.clipboard&&navigator.clipboard.writeText&&clipboardWriteText(pixelTwinId)){
+    showSuccess('项目ID已复制到剪贴板')
+  }else{
     showError('复制失败，请手动复制')
   }
 }
